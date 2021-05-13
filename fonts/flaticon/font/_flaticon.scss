@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 07/02/2019 07:51
+    Creation date: 22/04/2019 13:33
     */
 
     @font-face {
@@ -37,20 +37,16 @@
   font-smoothing: antialiased;
     }
 
-    .flaticon-bee:before { content: "\f100"; }
-.flaticon-hook:before { content: "\f101"; }
-.flaticon-skyline:before { content: "\f102"; }
-.flaticon-home:before { content: "\f103"; }
-.flaticon-stairs:before { content: "\f104"; }
-.flaticon-engineer:before { content: "\f105"; }
-.flaticon-engineer-1:before { content: "\f106"; }
-.flaticon-engineer-2:before { content: "\f107"; }
+    .flaticon-badge:before { content: "\f100"; }
+.flaticon-target:before { content: "\f101"; }
+.flaticon-agreement:before { content: "\f102"; }
+.flaticon-line-chart:before { content: "\f103"; }
+.flaticon-target-1:before { content: "\f104"; }
+.flaticon-bar-chart:before { content: "\f105"; }
     
-    $font-Flaticon-bee: "\f100";
-    $font-Flaticon-hook: "\f101";
-    $font-Flaticon-skyline: "\f102";
-    $font-Flaticon-home: "\f103";
-    $font-Flaticon-stairs: "\f104";
-    $font-Flaticon-engineer: "\f105";
-    $font-Flaticon-engineer-1: "\f106";
-    $font-Flaticon-engineer-2: "\f107";
+    $font-Flaticon-badge: "\f100";
+    $font-Flaticon-target: "\f101";
+    $font-Flaticon-agreement: "\f102";
+    $font-Flaticon-line-chart: "\f103";
+    $font-Flaticon-target-1: "\f104";
+    $font-Flaticon-bar-chart: "\f105";

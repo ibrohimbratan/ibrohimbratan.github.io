@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 07/02/2019 07:51
+  	Creation date: 22/04/2019 13:33
   	*/
 
 @font-face {
@@ -25,16 +25,20 @@
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
   font-family: Flaticon;
-        font-size: 20px;
-font-style: normal;
-margin-left: 20px;
+        font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.flaticon-bee:before { content: "\f100"; }
-.flaticon-hook:before { content: "\f101"; }
-.flaticon-skyline:before { content: "\f102"; }
-.flaticon-home:before { content: "\f103"; }
-.flaticon-stairs:before { content: "\f104"; }
-.flaticon-engineer:before { content: "\f105"; }
-.flaticon-engineer-1:before { content: "\f106"; }
-.flaticon-engineer-2:before { content: "\f107"; }
+.flaticon-badge:before { content: "\f100"; }
+.flaticon-target:before { content: "\f101"; }
+.flaticon-agreement:before { content: "\f102"; }
+.flaticon-line-chart:before { content: "\f103"; }
+.flaticon-target-1:before { content: "\f104"; }
+.flaticon-bar-chart:before { content: "\f105"; }
