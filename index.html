@@ -1,653 +1,999 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>Ikhtiyar Dosmetov </title>
+<head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700, 900|Playfair+Display:400,900" rel="stylesheet">
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
-
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/jquery-ui.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-
-    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
-
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-
-    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-
-    <link rel="stylesheet" href="css/aos.css">
-
+    <link rel="stylesheet" href="fontawesome/css/all.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <!-- <link rel="stylesheet" href="bootstrap/css/all.css"> -->
+    <!-- <link rel="stylesheet" href="bootstrap/css/all.map"> -->
+    <title> Edvi </title>
+</head>
+<body class="bg-light">
+<nav class="custom-nav navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid gx-5">
+        <div class="row nav-row">
+            <div class="col-auto">
+                <a class="navbar-brand" href="#"> <img src="images/logo.png" alt="" width="60"> </a>
+            </div>
+            <div class="col">
+                <div class="row justify-content-end" id="navbarSupportedContent">
+                    <div class="col-1 hidden-sm"></div>
+                    <form class="col align-items-center d-flex hidden-sm">
+                        <div class="topsearch">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <input class="form-control me-2 inp-bord" type="search" placeholder="" aria-label="Search">
+                        <button class="visually-hidden" type="submit"></button>
+                    </form>
+                    <div class="col-1 hidden-sm"></div>
 
-  </head>
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" id="home-section">
+                    <ul class="nav col-md-auto inline-nav">
 
+                        <li class="nav-item btn btn-light">
+                            <a class="nav-link active nav-link " aria-current="page" href="#scrollspyHeading1">Courses</a>
+                        </li>
 
-  <div id="overlayer"></div>
-  <div class="loader">
-    <div class="spinner-border text-primary" role="status">
-      <span class="sr-only">Loading...</span>
-    </div>
-  </div>
+                        <li class="nav-item btn btn-light">
+                            <a class="nav-link active nav-link " aria-current="page" href="#scrollspyHeadingAbout">About</a>
+                        </li>
 
-
-  <div class="site-wrap">
-
-    <div class="site-mobile-menu site-navbar-target">
-      <div class="site-mobile-menu-header">
-        <div class="site-mobile-menu-close mt-3">
-          <span class="icon-close2 js-menu-toggle"></span>
+                    </ul>
+                    <div class="col-auto text-center align-items-center d-flex">
+                        <a href="#" class=" btn btn-primary sign-in-button nav-item" data-bs-toggle="modal" data-bs-target="#exampleModal">Sing in</a>
+                    </div>
+                </div>
+            </div>
+            <form class="col-12 align-items-center hidden-search hidden-lg">
+                <div class="topsearch">
+                    <i class="fas fa-search"></i>
+                </div>
+                <input class="form-control me-2 inp-bord" type="search" placeholder="" aria-label="Search">
+                <button class="visually-hidden" type="submit"></button>
+            </form>
         </div>
-      </div>
-      <div class="site-mobile-menu-body"></div>
+    </div>
+</nav>
+
+<section class="container-fluid imgg">
+    <div class="container">
+        <div class="row itms align-items-center">
+            <div class="col align-items-center">
+                <h1 class="makeyour">Make your <br> dream come true</h1>
+                <h2 class="studt">study onlineand learn English language</h2>
+            </div>
+            <div class="col-md-5">
+                <img src="images/happy-brunette.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Courses-->
+<section class="container-fluid">
+    <div class="container courses ccarousel scrollspy-example" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0"
+         tabindex="0">
+        <div class="coueses">
+            <h1 class="aftr" id="scrollspyHeading1">Courses</h1>
+        </div>
+        <div class="owl-carousel corusel-width carousel">
+            <div class="">
+                <div class="shadow widthcours carousel-inner d-block">
+                    <img src="images/teacher.jpg" class="img-fluid" alt="">
+                    <div class="p-3">
+                        <h5><strong class="kurs-title">English for Beginners - Learn English<br>
+                            easiliy and perfectly</strong></h5>
+                        <p>By Diana Akhnedova</p>
+                        <p class="text-muted kurs-desc">
+                            for those who want to start English form scratch, you <br>
+                            canvasan study in new courses
+                        </p>
+                        <p><strong class="numb">3.7</strong>
+                            <span class="course-stars">
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star-half-alt"></i>
+                   <i class="far fa-star"></i>
+                 </span>
+                            <span class="text-muted">(583 ratings) </span>
+                        </p>
+                        <p class="text-muted">
+                            Students joined 1,262
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="shadow widthcours">
+                    <img src="images/teacher.jpg" class="img-fluid" alt="">
+                    <div class="p-3">
+                        <h5><strong class="kurs-title">English for Beginners - Learn English<br>
+                            easiliy and perfectly</strong></h5>
+                        <p>By Diana Akhnedova</p>
+                        <p class="text-muted kurs-desc">
+                            for those who want to start English form scratch, you <br>
+                            canvasan study in new courses
+                        </p>
+                        <p><strong class="numb">3.7</strong>
+                            <span class="course-stars">
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star-half-alt"></i>
+                   <i class="far fa-star"></i>
+                 </span>
+                            <span class="text-muted">(583 ratings) </span>
+                        </p>
+                        <p class="text-muted">
+                            Students joined 1,262
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="">
+                <div class="shadow widthcours">
+                    <img src="images/teacher.jpg" class="img-fluid" alt="">
+                    <div class="p-3">
+                        <h5><strong class="kurs-title">English for Beginners - Learn English<br>
+                            easiliy and perfectly</strong></h5>
+                        <p>By Diana Akhnedova</p>
+                        <p class="text-muted kurs-desc">
+                            for those who want to start English form scratch, you <br>
+                            canvasan study in new courses
+                        </p>
+                        <p><strong class="numb">3.7</strong>
+                            <span class="course-stars">
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star-half-alt"></i>
+                   <i class="far fa-star"></i>
+                 </span>
+                            <span class="text-muted">(583 ratings) </span>
+                        </p>
+                        <p class="text-muted">
+                            Students joined 1,262
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="shadow widthcours">
+                    <img src="images/teacher.jpg" class="img-fluid" alt="">
+                    <div class="p-3">
+                        <h5><strong class="kurs-title">English for Beginners - Learn English<br>
+                            easiliy and perfectly</strong></h5>
+                        <p>By Diana Akhnedova</p>
+                        <p class="text-muted kurs-desc">
+                            for those who want to start English form scratch, you <br>
+                            canvasan study in new courses
+                        </p>
+                        <p><strong class="numb">3.7</strong>
+                            <span class="course-stars">
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star-half-alt"></i>
+                   <i class="far fa-star"></i>
+                 </span>
+                            <span class="text-muted">(583 ratings) </span>
+                        </p>
+                        <p class="text-muted">
+                            Students joined 1,262
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="shadow widthcours">
+                    <img src="images/teacher.jpg" class="img-fluid" alt="">
+                    <div class="p-3">
+                        <h5><strong class="kurs-title">English for Beginners - Learn English<br>
+                            easiliy and perfectly</strong></h5>
+                        <p>By Diana Akhnedova</p>
+                        <p class="text-muted kurs-desc">
+                            for those who want to start English form scratch, you <br>
+                            canvasan study in new courses
+                        </p>
+                        <p><strong class="numb">3.7</strong>
+                            <span class="course-stars">
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star-half-alt"></i>
+                   <i class="far fa-star"></i>
+                 </span>
+                            <span class="text-muted">(583 ratings) </span>
+                        </p>
+                        <p class="text-muted">
+                            Students joined 1,262
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--shov me-->
+<section class="container text-center p-5">
+    <a href="#" class="btn btn-info btn-lg btn-more">Show more</a>
+</section>
+
+<!--our main goals-->
+<section class="container-fluid goal">
+    <div class="container">
+        <div class="row itms align-items-center">
+            <div class="col align-items-center">
+                <h1 class="display-5 fw-normal">Our main goal is to get you to your desired detinition</h1>
+                <h4 class="fw-normal">
+                    Join us and learn English from the easiest way
+                    to the most professional level and have your own image in life
+                </h4>
+            </div>
+            <div class="col-md-5">
+                <img src="images/portrait-student-girl.png" class="imgleft" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Benefits of Edvi-->
+<section class="container-fluid">
+    <div class="container">
+        <div class="coueses">
+            <h1 class="aftr">Benefits of Edvi</h1>
+        </div>
+
+
+        <div class="row itms">
+            <div class="col-md-4 col-sm-12">
+                <div class="shadow border-green">
+                    <div class="text-center clock">
+                        <img src="images/ic2.png" alt="">
+                    </div>
+                    <div class="p-3 juntifi">
+                        <h5><strong class="kurs-title">Save your time and money</strong></h5>
+                        <p class="text-muted kurs-desc">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        <p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-12">
+                <div class="shadow border-blue">
+                    <div class="text-center calendar">
+                        <img src="images/ic1.png" alt="">
+                    </div>
+                    <div class="p-3 juntifi">
+                        <h5><strong class="kurs-title">Learn on your schedule</strong></h5>
+                        <p class="text-muted kurs-desc">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        <p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-12">
+                <div class="shadow border-orange">
+                    <div class="text-center icon-rezult">
+                        <img src="images/ic.png" alt="">
+                    </div>
+                    <div class="p-3 juntifi">
+                        <h5><strong class="kurs-title">Practice & progress control</strong></h5>
+                        <p class="text-muted kurs-desc">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        <p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
 
+</section>
+<br>
 
-    <header class="site-navbar js-sticky-header site-navbar-target" role="banner" >
+<!--About Edvi-->
+<section class="container-fluid gulugulu itms">
+    <div class="container aftr" id="scrollspyHeadingAbout">
+        <div class="row itms align-items-center">
+            <div class="col-md-4 col-sm-12">
+                <img src="images/laptop.png" alt="">
+            </div>
+            <div class="col align-items-center">
+                <h1 class="display-5 fw-normal">About Edvi</h1>
+                <h4 class="fw-normal">
+                    We have created an online platform for the convenience
+                    of those who are learning English and are just
+                    starting to learn. It helps people of all ages to
+                    learn English at any time and at any moment.
+                </h4>
+                <div class="p-5 text-center itms">
+                    <a href="#" class="btn btn-info sign-in-button px-4">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-      <div class="container">
-        <div class="row align-items-center">
+<!--Sanjar Aripov-->
+<section class="container-fluid">
+    <div class="container ccarousel">
+        <div class="coueses">
+            <h1 class="aftr">Our success stories</h1>
+        </div>
 
-          <div class="col-6 col-xl-2">
-            <h1 class="mb-0 site-logo"><a href="index.html" class="h2 mb-0">Ikhtiyar Dosmetov<span class="text-primary">.</span> </a></h1>
-          </div>
+        <div class="owl-carousel carousel itms stories">
+            <div class="">
+                <div class="text-center imgtop ">
+                    <img src="images/guy-smiling.png" alt="">
+                </div>
+                <div class="shadow borderbot">
+                    <div class="p-3 juntifi text-center">
+                        <h5><strong class="kurs-title">Sanjar Aripov</strong></h5>
+                        <p class="text-muted kurs-desc"><br>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        <p>
+                    </div>
+                    <div class="text-end p-3">
+                        <i class="fab fa-instagram"> @sanjar_aripov</i>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="text-center imgtop ">
+                    <img src="images/guy-smiling.png" alt="">
+                </div>
+                <div class="shadow borderbot">
+                    <div class="p-3 juntifi text-center">
+                        <h5><strong class="kurs-title">Sanjar Aripov</strong></h5>
+                        <p class="text-muted kurs-desc"><br>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        <p>
+                    </div>
+                    <div class="text-end p-3">
+                        <i class="fab fa-instagram "> @sanjar_aripov</i>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="text-center imgtop ">
+                    <img src="images/guy-smiling.png" alt="">
+                </div>
+                <div class="shadow borderbot">
+                    <div class="p-3 juntifi text-center">
+                        <h5><strong class="kurs-title ">Sanjar Aripov</strong></h5>
+                        <p class="text-muted kurs-desc"><br>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        <p>
+                    </div>
+                    <div class="text-end p-3">
+                        <i class="fab fa-instagram"> @sanjar_aripov</i>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="text-center imgtop ">
+                    <img src="images/guy-smiling.png" alt="">
+                </div>
+                <div class="shadow borderbot">
+                    <div class="p-3 juntifi text-center">
+                        <h5><strong class="kurs-title ">Sanjar Aripov</strong></h5>
+                        <p class="text-muted kurs-desc"><br>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        <p>
+                    </div>
+                    <div class="text-end p-3">
+                        <i class="fab fa-instagram ">@sanjar_aripov</i>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="text-center imgtop ">
+                    <img src="images/guy-smiling.png" alt="">
+                </div>
+                <div class="shadow borderbot">
+                    <div class="p-3 juntifi text-center">
+                        <h5><strong class="kurs-title ">Sanjar Aripov</strong></h5>
+                        <p class="text-muted kurs-desc"><br>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        <p>
+                    </div>
+                    <div class="text-end p-3">
+                        <i class="fab fa-instagram ">@sanjar_aripov</i>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="text-center imgtop ">
+                    <img src="images/guy-smiling.png" alt="">
+                </div>
+                <div class="shadow borderbot">
+                    <div class="p-3 juntifi text-center">
+                        <h5><strong class="kurs-title ">Sanjar Aripov</strong></h5>
+                        <p class="text-muted kurs-desc"><br>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        <p>
+                    </div>
+                    <div class="text-end p-3">
+                        <i class="fab fa-instagram ">@sanjar_aripov</i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-          <div class="col-12 col-md-10 d-none d-xl-block">
-            <nav class="site-navigation position-relative text-right" role="navigation">
+</section>
+<br>
 
-              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                <li><a href="#home-section" class="nav-link">Home</a></li>
-                <li class="has-children">
-                  <a href="#about-section" class="nav-link">About</a>
-                  <ul class="dropdown">
-                    <li><a href="#training-section" class="nav-link">Our Training</a></li>
-                    <li><a href="#testimonials-section" class="nav-link">Testimonials</a></li>
-                    <li><a href="#gallery-section" class="nav-link">Gallery</a></li>
-                    <li><a href="#blog-section" class="nav-link">Blog</a></li>
-                    <li class="has-children">
-                      <a href="#">More Links</a>
-                      <ul class="dropdown">
-                        <li><a href="#">Telegram</a></li>
-                        <li><a href="#">Facebook</a></li>
-                        <li><a href="#">YouTube</a></li>
-                      </ul>
+<section class="container text-center p-5">
+    <a href="#" class="btn btn-info btn-lg btn-more">More stories</a>
+</section>
+<br>
+
+<section class="container-fluid bg-expert">
+    <!-- <div class="container"> -->
+    <div class="row align-items-end">
+        <div class="col-1 col-xs-12"></div>
+        <div class="col-md-6 col-xs-12">
+            <div class="row itms">
+                <div class="col-lg-5 col-xs-12"><br>
+                    <span class="display-6">Our expert</span>
+                    <p class=" py-5 h5">
+                        <ins>Daniel Jonson</ins>
+                    </p>
+                </div>
+            </div>
+            <div class="row itms">
+                <div class="col-lg-5 col-6">
+                    <h5>Work experence:</h5>
+                    <p class="text-muted">15 years</p>
+                </div>
+                <div class="col-lg-5 col-6">
+                    <h5>Specialty:</h5>
+                    <p class="text-muted">Candidate of English</p>
+                </div>
+            </div>
+            <div class="row itms">
+                <div class="col-lg-5 col-6">
+                    <h5>Referance:</h5>
+                    <p class="text-muted">University of World <br> Languages</p>
+                </div>
+                <div class="col-lg-5 col-6">
+                    <h5>Specialty:</h5>
+                    <p class="text-muted">Candidate of English</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-md-5 col-xs-12 p-0 text-end">
+            <img src="images/our_expert.png" class="img-fluid" alt="">
+        </div>
+    </div>
+    <!-- </div> -->
+</section>
+
+<section class="container">
+    <div class="coueses">
+        <h1 class="aftr">Our contact</h1>
+    </div>
+</section>
+
+<section class="container">
+    <div class="row itms gx-5">
+        <div class="col-md-4 col-sm-12 px-5">
+            <div class="text-center brdr shadow align-items-center">
+                <div class="row icons-color align-items-center">
+                    <div class="col">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                </div>
+                <br><br>
+                <h5>Adress:</h5>
+                <p class="text-muted">Tashkent,Navoi24</p>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-12 px-5">
+            <div class="text-center brdr shadow align-items-center">
+                <div class="row icons-color align-items-center">
+                    <div class="col">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                </div>
+                <br><br>
+                <h5>Adress:</h5>
+                <p class="text-muted">Tashkent,Navoi24</p>
+            </div>
+        </div>
+        <div class="col px-5">
+            <div class="text-center brdr shadow align-items-center">
+                <div class="row icons-color align-items-center">
+                    <div class="col">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                </div>
+                <br><br>
+                <h5>Adress:</h5>
+                <p class="text-muted">Tashkent,Navoi24</p>
+            </div>
+        </div>
+    </div>
+</section>
+<br>
+
+<section class="container-fluid border-top top-fut">
+    <div class="container">
+        <div class="row itms align-items-center">
+            <div class="col-3">
+                <div class="futer-logo text-center">
+                    <img src="images/logo.png" alt="">
+                </div>
+            </div>
+            <div class="col justify-content-center">
+                <ul class="nav justify-content-center med-futr">
+                    <li class="nav-item">
+                        <a class="nav-link disabled h6" href="#"> <u>Courses</u> </a>
                     </li>
-                  </ul>
-                </li>
-
-                <li><a href="#training-section" class="nav-link">Our Training</a></li>
-                <li><a href="#services-section" class="nav-link">Services</a></li>
-                <li><a href="#contact-section" class="nav-link">Contact</a></li>
-              </ul>
-            </nav>
-          </div>
-
-
-          <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a></div>
-
-        </div>
-      </div>
-
-    </header>
-
-
-    <section class="site-blocks-cover overflow-hidden">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 align-self-center">
-
-            <div class="row">
-              <div class="col-lg-11">
-
-                <h1>Bizning <span class="typed-words"></span></h1>
-                <p>Bizning clubga a'zo bo'ling  <a href="tel:+998946273313">Aloqa</a></p>
-              </div>
-
+                    <li class="nav-item">
+                        <a class="nav-link disabled h6" href="#"> <u>About us</u> </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled h6" href="#"> <u>Our expert</u> </a>
+                    </li>
+                </ul>
             </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <div class="container">
-        <div class="row">
-          <div class="col-12" style="margin-top: -7%;">
-            <div class="slide-one-item home-slider owl-carousel">
-              <img src="images/1.jpg" alt="Iktiardosmetov" class="img-fluid img">
-              <img src="images/2.jpg" alt="Iktiardosmetov" class="img-fluid img">
-              <img src="images/3.jpg" alt="Iktiardosmetov" class="img-fluid img">
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="site-section" id="about-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 mb-3">
-            <h2 class="text-black">Salom, men Dosmeto Ikxtiarimanv</h2>
-          </div>
-          <div class="col-md-6 mb-5">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-            <p class="mt-5"><img src="images/signature.png" alt="Free website template by Free-Template.co" class="img-fluid w-25"></p>
-          </div>
-          <div class="col-md-5 ml-auto">
-            <h2 class="text-black mb-4 h6">Upcmoing Speaking Gigs</h2>
-            <ul class="list-unstyled">
-              <li class="mb-4">
-                <h3 class="text-black m-0">Konferentsiyani</h3>
-                <span class="text-muted">Tashkent, 2021</span>
-              </li>
-              <li class="mb-4">
-                <h3 class="text-black m-0">The Life Conference</h3>
-                <span class="text-muted">Andijan, 2021</span>
-              </li>
-              <li class="mb-4">
-                <h3 class="text-black m-0">Build Conference</h3>
-                <span class="text-muted">Tashkent, 2021</span>
-              </li>
-              <li class="mb-4">
-                <h3 class="text-black m-0">The Life Conference</h3>
-                <span class="text-muted">Samarkand, 2021</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-3 text-left">
-            <img src="images/p1.png" alt="Free Website Template by Free-Template.co" class="rounded-circle img-fluid w-50 mb-4">
-            <h3 class="h4 text-black"> Ong osti  va pull</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>            <!-- <p>
-              <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
-              <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
-              <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-              <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
-            </p> -->
-          </div>
-          <div class="col-lg-3 text-left">
-            <img src="images/p2.png" alt="Free Website Template by Free-Template.co" class="rounded-circle img-fluid w-50 mb-4">
-            <h3 class="h4 text-black">Faqat natija korsating</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>            <!-- <p>
-            <!-- <p>
-              <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
-              <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
-              <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-              <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
-            </p> -->
-
-          </div>
-          <div class="col-lg-3 text-left">
-            <img src="images/p3.png" alt="Free Website Template by Free-Template.co" class="rounded-circle img-fluid w-50 mb-4">
-            <h3 class="h4 text-black">Biznesmen tafakkuri</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt .</p>            <!-- <p>
-            <!-- <p>
-              <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
-              <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
-              <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-              <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
-            </p> -->
-          </div>
-          <div class="col-lg-3 text-left">
-            <img src="images/p4.png" alt="" class="rounded-circle img-fluid w-50 mb-4">
-            <h3 class="h4 text-black">Shaxsiy brend</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>            <!-- <p>
-            <!-- <p>
-              <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
-              <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
-              <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-              <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
-            </p> -->
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <section class="site-section bg-light" id="training-section">
-      <div class="container">
-        <div class="row mb-5 justify-content-center">
-          <div class="col-md-7 text-center">
-            <h2 class="text-black">Bizning jamoa</h2>
-            <p> 5 yillik mashaqqatlar evaziga yigilgan tajribali jamoa </p>
-          </div>
-        </div>
-
-        <div class="nonloop-block-13 owl-style owl-carousel">
-          <div class="training">
-            <figure class="mb-4"><img src="images/c1.png" alt="Free website template by Free-Template.co" class="img-fluid"></figure>
-            <h3 class="text-black mb-3">Hayot bo'yicha murabbiy</h3>
-            <p>ism sharfi 33 yosh marketing yo'nalishda maruza qiladi shu sohada 10 yillik tajribaga ega</p>
-          </div>
-
-          <div class="training">
-            <figure class="mb-4"><img src="images/c2.png" alt="Free website template by Free-Template.co" class="img-fluid"></figure>
-            <h3 class="text-black mb-3">O'zingizning potentsialingiz</h3>
-            <p>ism sharfi 33 yosh marketing yo'nalishda maruza qiladi shu sohada 10 yillik tajribaga ega</p>
-          </div>
-
-          <div class="training">
-            <figure class="mb-4"><img src="images/c3.png" alt="Free website template by Free-Template.co" class="img-fluid"></figure>
-            <h3 class="text-black mb-3">Hayotni o'zgartirish</h3>
-            <p>ism sharfi 33 yosh marketing yo'nalishda maruza qiladi shu sohada 10 yillik tajribaga ega</p>
-          </div>
-
-          <div class="training">
-            <figure class="mb-4"><img src="images/c4.png" alt="Free website template by Free-Template.co" class="img-fluid"></figure>
-            <h3 class="text-black mb-3">Hayot bo'yicha murabbiy</h3>
-            <p>ism sharfi 33 yosh marketing yo'nalishda maruza qiladi shu sohada 10 yillik tajribaga ega.</p>
-          </div>
-
-          <div class="training">
-            <figure class="mb-4"><img src="images/c5.png" alt="Free website template by Free-Template.co" class="img-fluid"></figure>
-            <h3 class="text-black mb-3">Release Your Potential</h3>
-            <p>ism sharfi 33 yosh marketing yo'nalishda maruza qiladi shu sohada 10 yillik tajribaga ega</p>
-          </div>
-
-
-
-      </div>
-    </section>
-
-
-
-    <section class="site-section" id="services-section">
-      <div class="container">
-        <div class="row mb-5 justify-content-center">
-          <div class="col-md-7 text-center">
-            <h2 class="text-black">Our Services</h2>
-            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-          </div>
-        </div>
-
-        <div class="nonloop-block-13 owl-style owl-style-md owl-carousel">
-          <div class="service">
-            <div class="icon"><span class="flaticon-badge display-1 text-primary"></span></div>
-            <h3 class="text-black mb-3">Life Coach Training</h3>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-          </div>
-
-          <div class="service">
-            <div class="icon"><span class="flaticon-target display-1 text-primary"></span></div>
-            <h3 class="text-black mb-3">Release Your Potential</h3>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-          </div>
-
-          <div class="service">
-            <div class="icon"><span class="flaticon-agreement display-1 text-primary"></span></div>
-            <h3 class="text-black mb-3">Transforming Lives</h3>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-          </div>
-
-          <div class="service">
-            <div class="icon"><span class="flaticon-line-chart display-1 text-primary"></span></div>
-            <h3 class="text-black mb-3">Life Coach Training</h3>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-          </div>
-
-          <div class="service">
-
-            <div class="icon"><span class="flaticon-target-1 display-1 text-primary"></span></div>
-            <h3 class="text-black mb-3">Release Your Potential</h3>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-          </div>
-
-          <div class="service">
-            <div class="icon"><span class="flaticon-bar-chart display-1 text-primary"></span></div>
-            <h3 class="text-black mb-3">Transforming Lives</h3>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <section class="site-section" id="gallery-section">
-      <div class="container-fluid">
-        <div class="row mb-5 justify-content-center">
-          <div class="col-md-7 text-center">
-            <h2 class="text-black">Gallery</h2>
-            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-          </div>
-        </div>
-
-        <div class="row">
-
-            <a class="col-6 col-md-6 col-lg-4 col-xl-3 gal-item d-block" data-aos="fade-up" data-aos-delay="100" href="images/c1.jpg" data-fancybox="gal"><img src="images/c1.png" alt="" class="img-fluid"></a>
-
-            <a class="col-6 col-md-6 col-lg-4 col-xl-3 gal-item d-block" data-aos="fade-up" data-aos-delay="100" href="images/c2.jpg" data-fancybox="gal"><img src="images/c2.png" alt="" class="img-fluid"></a>
-
-            <a class="col-6 col-md-6 col-lg-4 col-xl-3 gal-item d-block" data-aos="fade-up" data-aos-delay="100" href="images/c3.jpg" data-fancybox="gal"><img src="images/c3.png" alt="" class="img-fluid"></a>
-
-            <a class="col-6 col-md-6 col-lg-4 col-xl-3 gal-item d-block" data-aos="fade-up" data-aos-delay="100" href="images/c4.jpg" data-fancybox="gal"><img src="images/c4.png" alt="" class="img-fluid"></a>
-
-            <a class="col-6 col-md-6 col-lg-4 col-xl-3 gal-item d-block" data-aos="fade-up" data-aos-delay="100" href="images/1.png" data-fancybox="gal"><img src="images/g1.jpg" alt="" class="img-fluid"></a>
-
-            <a class="col-6 col-md-6 col-lg-4 col-xl-3 gal-item d-block" data-aos="fade-up" data-aos-delay="100" href="images/2.png" data-fancybox="gal"><img src="images/c2.png" alt="" class="img-fluid"></a>
-
-            <a class="col-6 col-md-6 col-lg-4 col-xl-3 gal-item d-block" data-aos="fade-up" data-aos-delay="100" href="images/3.png" data-fancybox="gal"><img src="images/c3.png" alt="" class="img-fluid"></a>
-
-            <a class="col-6 col-md-6 col-lg-4 col-xl-3 gal-item d-block" data-aos="fade-up" data-aos-delay="100" href="images/4.png" data-fancybox="gal"><img src="images/c4.png" alt="" class="img-fluid"></a>
-
-            <a class="col-6 col-md-6 col-lg-4 col-xl-3 gal-item d-block" data-aos="fade-up" data-aos-delay="100" href="images/c5.jpg" data-fancybox="gal"><img src="images/c5.png" alt="" class="img-fluid"></a>
-
-            <a class="col-6 col-md-6 col-lg-4 col-xl-3 gal-item d-block" data-aos="fade-up" data-aos-delay="100" href="images/c6.jpg" data-fancybox="gal"><img src="images/c1.png" alt="" class="img-fluid"></a>
-
-            <a class="col-6 col-md-6 col-lg-4 col-xl-3 gal-item d-block" data-aos="fade-up" data-aos-delay="100" href="images/4.jpg" data-fancybox="gal"><img src="images/g5.jpg" alt="" class="img-fluid"></a>
-
-            <a class="col-6 col-md-6 col-lg-4 col-xl-3 gal-item d-block" data-aos="fade-up" data-aos-delay="100" href="images/c7.jpg" data-fancybox="gal"><img src="images/c5.png" alt="" class="img-fluid"></a>
-
-            <!-- <a class="col-6 col-md-6 col-lg-4 col-xl-3 gal-item d-block" data-aos="fade-up" data-aos-delay="100" href="images/c7.jpg" data-fancybox="gal"><img src="images/c5.jpg" alt="" class="img-fluid"></a>
-
-            <a class="col-6 col-md-6 col-lg-4 col-xl-3 gal-item d-block" data-aos="fade-up" data-aos-delay="100" href="images/c7.jpg" data-fancybox="gal"><img src="images/c5.jpg" alt="" class="img-fluid"></a> -->
-        </div>
-      </div>
-    </section>
-
-
-    <section class="site-section" id="testimonials-section" data-aos="fade">
-      <div class="container">
-
-        <div class="row justify-content-center" data-aos="fade-up">
-          <div class="col-lg-6 text-center mb-5">
-            <h2 class="text-black mb-2"></h2>
-          </div>
-        </div>
-        <div  data-aos="fade-up" data-aos-delay="200">
-          <div class="owl-carousel owl-style owl-carousel-one no-owl-nav">
-            <div>
-              <div class="block-testimony-1 text-center">
-
-                <blockquote class="mb-4">
-                  <p>&ldquo;Maqsad sari qadamba qadam.&rdquo;</p>
-                </blockquote>
-
-                <figure>
-                  <img src="images/p4.png" alt="Image" class="img-fluid rounded-circle mx-auto">
-                </figure>
-                <h3 class="font-size-20 text-black">user name</h3>
-              </div>
+            <div class="col text-center align-item-center">
+                <text>Follow us on</text>
+                <br>
+                <i class="fab fa-instagram-square"></i>
+                <i class="fab fa-telegram"></i>
+                <i class="fab fa-facebook"></i>
             </div>
 
-            <div>
-              <div class="block-testimony-1 text-center">
-
-
-
-                <blockquote class="mb-4">
-                  <p>&ldquo;Maqsad sari qadamba qadam.&rdquo;</p>                </blockquote>
-
-                <figure>
-                  <img src="images/p2.png" alt="Image" class="img-fluid rounded-circle mx-auto">
-                </figure>
-                <h3 class="font-size-20 mb-4 text-black">user name</h3>
-
-
-              </div>
-            </div>
-
-            <div>
-              <div class="block-testimony-1 text-center">
-
-
-                <blockquote class="mb-4">
-                  <p>&ldquo;Maqsad sari qadamba qadam.&rdquo;</p>                </blockquote>
-
-                <figure>
-                  <img src="images/p1.png" alt="Image" class="img-fluid rounded-circle mx-auto">
-                </figure>
-                <h3 class="font-size-20 text-black">user name</h3>
-
-
-              </div>
-            </div>
-
-            <div>
-              <div class="block-testimony-1 text-center">
-
-
-                <blockquote class="mb-4">
-                  <p>&ldquo;Maqsad sari qadamba qadam.&rdquo;</p>                </blockquote>
-
-                <figure>
-                  <img src="images/px`3.png" alt="Image" class="img-fluid rounded-circle mx-auto">
-                </figure>
-                <h3 class="font-size-20 mb-4 text-black">user name</h3>
-
-
-              </div>
-            </div>
-
-
-          </div>
         </div>
-      </div>
-    </section>
-
-    <section class="site-section" id="blog-section">
-      <div class="container">
-        <div class="row justify-content-center" data-aos="fade-up">
-          <div class="col-lg-6 text-center mb-5">
-
-            <h2 class="text-black mb-2">Our Blog</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6 mb-4" data-aos="fade-up"  data-aos-delay="">
-            <div class="d-lg-flex blog-entry">
-              <figure class="mr-4">
-                <a href="single.html"><img src="images/c1.png" alt="Free Website Template by Free-Template.co" class="img-fluid rounded"></a>
-              </figure>
-              <div class="blog-entry-text">
-                <h3><a href="single.html">qadamba qadam</a></h3>
-                <span class="post-meta mb-3 d-block">April 17, 2021</span>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,</p>
-                <p><a href="#" class="">Read More..</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 mb-4" data-aos="fade-up"  data-aos-delay="100">
-            <div class="d-lg-flex blog-entry">
-              <figure class="mr-4">
-                <a href="single.html"><img src="images/c2.png" alt="Free Website Template by Free-Template.co" class="img-fluid rounded"></a>
-              </figure>
-              <div class="blog-entry-text">
-                <h3><a href="https://www.instagram.com/qadambaqadam/">qadamba qadam</a></h3>
-                <span class="post-meta mb-3 d-block">April 17, 2021</span>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,</p>
-                <p><a href="#" class="">Read More..</a></p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 mb-4" data-aos="fade-up"  data-aos-delay="">
-            <div class="d-lg-flex blog-entry">
-              <figure class="mr-4">
-                <a href="single.html"><img src="images/c3.png" alt="Free Website Template by Free-Template.co" class="img-fluid rounded"></a>
-              </figure>
-              <div class="blog-entry-text">
-                <h3><a href="single.html">qadamba qadam</a></h3>
-                <span class="post-meta mb-3 d-block">April 17, 2021</span>
-                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,</p>
-                <p><a href="#" class="">Read More..</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 mb-4" data-aos="fade-up"  data-aos-delay="100">
-            <div class="d-lg-flex blog-entry">
-              <figure class="mr-4">
-                <a href="single.html"><img src="images/c5.png" alt="Free Website Template by Free-Template.co" class="img-fluid rounded"></a>
-              </figure>
-              <div class="blog-entry-text">
-                <h3><a href="single.html">qadamba qadam</a></h3>
-                <span class="post-meta mb-3 d-block">April 17, 2021</span>
-                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,</p>
-                <p><a href="#" class="">Read More..</a></p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <div class="site-section bg-light" id="contact-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 text-center mb-5">
-            <h2 class="text-black">Contact Us</h2>
-          </div>
-        </div>
-        <div class="row mb-5">
-          <div class="mb-4 mb-lg-0 col-md-6 col-lg-4">
-            <p class="mb-0 font-weight-bold">Address</p>
-            <p class="mb-4">Toshkent shaxar ....
-          </div>
-          <div class="mb-4 mb-lg-0 col-md-6 col-lg-4">
-            <p class="mb-0 font-weight-bold">Phone</p>
-            <p class="mb-4"><a href="#">+998 99 9999999</a></p>
-          </div>
-          <div class="mb-4 mb-lg-0 col-md-6 col-lg-4">
-            <p class="mb-0 font-weight-bold">Email Address</p>
-            <p class="mb-0"><a href="#">Iktiardosmetov@gmail.com</a></p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12 mb-5">
-            <form action="#" method="post">
-              <div class="form-group row">
-                <div class="col-md-6 mb-3 mb-md-0">
-                  <input type="text" class="form-control" placeholder="First name">
-                </div>
-                <div class="col-md-6">
-                  <input type="text" class="form-control" placeholder="First name">
-                </div>
-              </div>
-
-              <div class="form-group row">
-                <div class="col-md-12">
-                  <input type="text" class="form-control" placeholder="Email address">
-                </div>
-              </div>
-
-              <div class="form-group row">
-                <div class="col-md-12">
-                  <textarea name="" id="" class="form-control" placeholder="Write your message." cols="30" rows="10"></textarea>
-                </div>
-              </div>
-              <div class="form-group row">
-                <div class="col-md-6 mr-auto">
-                  <input type="submit" class="btn btn-block btn-primary text-white py-2 px-5" value="Send Message">
-                </div>
-              </div>
-            </form>
-          </div>
-
-        </div>
-      </div>
     </div>
+</section>
+<br>
 
-
-
-    <footer class="site-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <h2 class="footer-heading mb-4">About Us</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,</p>
-          </div>
-
-
-          <div class="col-md-3 ml-auto">
-            <h2 class="footer-heading mb-4">Quick Links</h2>
-            <ul class="list-unstyled">
-              <li><a href="#about-section" class="smoothscroll">About Us</a></li>
-              <li><a href="#training-section" class="smoothscroll">Our Training</a></li>
-              <li><a href="#services-section" class="smoothscroll">Services</a></li>
-              <li><a href="#testimonials-section" class="smoothscroll">Testimonials</a></li>
-              <li><a href="#contact-section" class="smoothscroll">Contact Us</a></li>
-            </ul>
-          </div>
-
-          <div class="col-md-4">
-            <div class="mb-5">
-              <h2 class="footer-heading mb-4">Follow Us</h2>
-              <a href="https://www.facebook.com/dosmetov.i" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
-              <a href="https://t.me/ikhtiyar_dosmetov_bot" class="pl-3 pr-3"><span class="icon-telegram"></span></a>
-              <a href="https://www.instagram.com/ikhtiyar_dosmetov/" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-              <a href="https://www.youtube.com/channel/UC7wodcvtxbSetfYHbodtV9A" class="pl-3 pr-3"><span class="icon-youtube"></span></a>
-              <a href="https://twitter.com/ikhtiyar_dos" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
+<header class="container-fluid futrjon">
+    <div class="container">
+        <div class="row text-center margno h6">
+            <div class="col-4">
+                &copy;Copiright2020
             </div>
-
-            <h2 class="footer-heading mb-4">Subscribe Newsletter</h2>
-            <form action="#" method="post" class="footer-subscribe">
-              <div class="input-group mb-3">
-                <input type="text" class="form-control border-secondary text-white bg-transparent" placeholder="Enter Email" aria-label="Enter Email" aria-describedby="button-addon2">
-                <div class="input-group-append">
-                  <button class="btn btn-primary text-black" type="button" id="button-addon2">Send</button>
+            <div class="col-4">
+                All rights reserved
+            </div>
+            <div class="col-4">
+                <a href="https://Elmaxmedia.uz" target="_blank" class="elmax">Elmaxmedia</a>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- tugadi -->
+<!--modalla boshlanadi-->
+<!--1 ci modal sign in-->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modalwidth">
+        <div class="modal-content modal-radius">
+            <div class="modal-body modlabod">
+                <div class="h4 text-center">
+                    <p>Sign in</p>
                 </div>
-              </div>
-            </form>
+                <form>
+                    <div class="mb-4">
+                        <label for="exampleInputPassword2" class="form-label">Login</label>
+                        <input type="text" class="form-control" id="exampleInputPassword2">
+                    </div>
 
-          </div>
-        </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPasswordaa" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPasswordaa">
+                    </div>
+                    <div class="p-3 text-center">
+                        <a href=" ?">Forgot password</a>
+                    </div>
+                    <div class="itms text-center noobe">
+                        <p>Don't have an accound?</p>
+                    </div>
+                    <div class="text-center">
+                        <a href="#" data-bs-toggle="modal"  data-bs-dismiss="modal" data-bs-target="#exampleModal6">Sign up</a>
+                    </div>
 
-        <div class="row pt-3 mt-3 text-center">
-          <div class="col-md-12">
-            <div class="border-top pt-3">
-              <p class="copyright"><small>
-              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-             &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved |<i</i><a href="https://Elmaxmedia.uz" target="_blank" >Elmaxmedia</a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></small></p>
 
+                    <div class="d-grid gap-2 col-9 mx-auto but-width p-4 but-width">
+                        <button type="submit" class="btn btn-primary" data-bs-toggle="modal"  data-bs-dismiss="modal" data-bs-target="#exampleModal4">Sign in</button>
+                    </div>
+
+                </form>
             </div>
-          </div>
-
         </div>
+    </div>
+</div>
+<!--tigadi-->
+<!-- 2 ci modal can not -->
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modalwidth">
+        <div class="modal-content modal-radius">
+            <div class="modal-body modlabod">
+                <div class="text-center align-items-center">
+                    <img src="images/look.png" alt="">
+                </div>
+                <div class="h4 itms text-center">
+                    Can not log in?
+                </div>
+                <br>
+                <form>
+                    <div class="text-center itms">
+                        <blockquote class="p-0">
+                            Enter you email adress or phone <br>
+                            number and we will send you a link to <br>
+                            restore access to you account.
+                        </blockquote>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label modalemail">E-mail</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <br>
 
-      </div>
-    </footer>
+                    <div class="d-grid itms gap-2 col-9 mx-auto">
+                        <button type="submit" class="btn btn-primary" data-bs-toggle="modal"  data-bs-dismiss="modal" data-bs-target="#exampleModal4"> Get a login link</button>
+                    </div>
 
-  </div> <!-- .site-wrap -->
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- tugadi -->
+<!-- 3 ci look email boldi -->
+<div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modalwidth">
+        <div class="modal-content modal-radius">
+            <div class="modal-body modlabod">
+                <div class="text-center align-items-center">
+                    <img src="images/look.png" alt="">
+                </div>
+                <form>
+                    <div class="text-center p-5">
+                        <p>The login link has been sent <br>
+                            to you <a href="">email</a>
+                        </p>
+                    </div>
+                    <div class="d-grid gap-2 col-9 mx-auto">
+                        <button type="submit" class="btn btn-primary" data-bs-toggle="modal"  data-bs-dismiss="modal" data-bs-target="#exampleModal4">Ok </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- tugadi -->
+<!-- 4 ci modal password -->
+<div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modalwidth">
+        <div class="modal-content modal-radius">
+            <div class="modal-body modlabod">
 
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/jquery-ui.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.countdown.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.fancybox.min.js"></script>
-  <script src="js/jquery.sticky.js"></script>
-  <script src="js/isotope.pkgd.min.js"></script>
+                <div class="row justify-content-center">
+                    <div class="col-auto">
 
-  <script src="js/typed.js"></script>
-            <script>
-            var typed = new Typed('.typed-words', {
-            strings: ["Motivatsion ma'ruzachilar","Professional ma'ruzachilar","Biznes ma'ruzachilari", "Professional hayot bo'yicha murabbiy"],
-            typeSpeed: 80,
-            backSpeed: 80,
-            backDelay: 4000,
-            startDelay: 1000,
-            loop: true,
-            showCursor: true
-            });
-            </script>
+                        <div class="prog-pratsent row">
+                            <div class="col align-self-center text-center">
+                                <b>FK</b>
+                            </div>
+                        </div>
 
-  <script src="js/main.js"></script>
+                    </div>
+                </div>
 
-  </body>
+
+                <div class="h4 text-center pb-5">
+                    Farrukh Korchiev
+                </div>
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword4" class="form-label">New Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword4">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleInputPasswordb" class="form-label">Confirm Password</label>
+                        <input type="password" class="form-control" id="exampleInputPasswordb">
+                    </div>
+
+                    <div class="d-grid gap-2 col-9 mx-auto">
+                        <button type="submit" class="btn btn-primary" data-bs-toggle="modal"  data-bs-dismiss="modal" data-bs-target="#exampleModal2">Next</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- tuggadi -->
+<!-- 5 ci hes ban password -->
+<div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modalwidth">
+        <div class="modal-content modal-radius">
+            <div class="modal-body modlabod">
+                <div class="text-center align-items-center">
+                    <img src="images/look.png" alt="">
+                </div>
+                <br><br>
+                <form>
+                    <div class="text-center">
+                        <p>You password hes been <br>
+                            change
+                        </p><br><br><br>
+                    </div>
+                    <div class="d-grid gap-2 col-9 mx-auto">
+                        <button type="submit" class="btn btn-primary" data-bs-toggle="modal"  data-bs-dismiss="modal" data-bs-target="#exampleModal1">Ok</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- tugadi -->
+<!-- 6 ci modal sing in -->
+<div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modalwidth">
+        <div class="modal-content modal-radius">
+            <div class="modal-body modlabod">
+                <div class="h4 text-center">
+                    Sign up
+                </div>
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail5" class="form-label">E-mail</label>
+                        <input type="email" class="form-control" id="exampleInputEmail5" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword123" class="form-label">Phone number</label>
+                        <input type="number" class="form-control" id="exampleInputPassword">
+                    </div>
+                    <div class="text-center">
+                        <p>or register in a convenient <br>
+                            way for you </p>
+                    </div>
+                    <div class="icon-set align-items-center text-center">
+                        <img src="images/gulugulu.png" alt="">
+                        <img src="images/email.png" alt="">
+                        <img src="images/facebook.png" alt="">
+                    </div>
+                    <div class="d-grid gap-2 col-9 mx-auto">
+                        <button type="submit" class="btn btn-primary" data-bs-toggle="modal"  data-bs-dismiss="modal" data-bs-target="#exampleModal7">Next</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- tugadi -->
+<!-- 7 ci modailsingin -->
+<div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modalwidth">
+        <div class="modal-content modal-radius">
+            <div class="modal-body modlabod">
+                <div class="h4 text-center">
+                    Sign up
+                </div>
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail6" class="form-label">First name</label>
+                        <input type="text" class="form-control" id="exampleInputEmail6"
+                               aria-describedby="emailHelp">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleInputEmail6b" class="form-label">Last name</label>
+                        <input type="text" class="form-control" id="exampleInputEmail6b"
+                               aria-describedby="emailHelp">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleInputPassword6" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword6">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleInputEmail6a" class="form-label">you pofession</label>
+                        <input type="text" class="form-control" id="exampleInputEmail6a" aria-describedby="emailHelp">
+                    </div>
+                    <p>Birthday</p>
+                   <div class="row" style="padding-top: -11px">
+                       <div class="col p-2" style="width:25px">
+                           <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                               <option selected>Day</option>
+                               <option value="1">1</option>
+                               <option value="2">2</option>
+                               <option value="3">3</option>
+                           </select>
+                       </div>
+                       <div class="col p-2" style="width:25px">
+                           <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                               <option selected>Month</option>
+                               <option value="1">Jan</option>
+                               <option value="2">Feb</option>
+                               <option value="3">March</option>
+                           </select>
+                       </div>
+                       <div class="col p-2" style="width:25px">
+                           <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                               <option selected>Year</option>
+                               <option value="1">1950</option>
+                               <option value="2">2000</option>
+                               <option value="3">2010</option>
+                           </select>
+                       </div>
+                   </div>
+                    <div class="row align-items-center">
+                        <div class="col-3">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                       id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    Man
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                       id="flexRadioDefault2" checked>
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                    Woman
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-grid gap-2 col-9 mx-auto">
+                        <button type="submit" class="btn btn-primary">Sign up</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- tugadi -->
+<!-- 8 ci modal-ligi -->
+<div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modalwidth">
+        <div class="modal-content  modal-radius">
+            <div class="modal-body  modlabod">
+                <div class="text-center align-items-center">
+                    <img src="images/modal-logo.png" alt="">
+                </div>
+                <br><br>
+                <form>
+                    <div class="h4 text-center">
+                        Conguratulations!
+                    </div>
+                    <br>
+                    <div class="text-center">
+                        <p>You have successfully <br>
+                            registered
+                        </p><br><br><br>
+                    </div>
+                    <div class="d-grid gap-2 col-9 mx-auto">
+                        <button type="submit" class="btn btn-primary">Ok</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="modal fade" id="exampleModal2121" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modalwidth">
+        <div class="modal-content modal-radius">
+            <div class="modal-body modlabod">
+                <div class="h4 text-center">
+                    <p>Sign in</p>
+                </div>
+                <form>
+                    <div class="mb-4">
+                        <label for="exampleInputPassword12" class="form-label">Login</label>
+                        <input type="text" class="form-control" id="exampleInputPassword12">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleInputPassword123" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword123">
+                    </div>
+                    <div class="p-3 text-center">
+                        <a href=" ?">Forgot password</a>
+                    </div>
+                    <div class="itms text-center noobe">
+                        <p>Don't have an accound?</p>
+                    </div>
+                    <div class="text-center">
+                        <a href="">Sign up</a>
+                    </div>
+
+
+                    <div class="d-grid gap-2 col-9 mx-auto but-width p-4">
+                        <button type="submit" class="btn btn-primary">Sign in</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!--tigadi-->
+
+
+<!-- 5 modallogo -->
+<div class="modal fade" id="exampleModalsafwf" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modalwidth">
+        <div class="modal-content modal-radius">
+            <div class="modal-body modlabod">
+                <div class="text-center align-items-center">
+                    <img src="images/logo.png" alt="">
+                </div>
+                <br><br>
+                <form>
+                    <div class="text-center">
+                        <p>You password hes been <br>
+                            change
+                        </p>
+                    </div>
+                    <div class="d-grid gap-2 col-9 mx-auto">
+                        <button type="submit" class="btn btn-primary">Ok</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- tugadi -->
+
+
+
+
+
+
+<!-- Optional JavaScript; choose one of the two! -->
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script> -->
+
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+<script src="js/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+        crossorigin="anonymous"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/main.js"></script>
+</body>
 </html>
