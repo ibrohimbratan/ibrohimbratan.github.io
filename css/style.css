@@ -449,3 +449,32 @@ color: white;
 .noobe p{
   margin-bottom: 0px;
 }
+.popov
+{
+  width: 320px;
+  padding-left: 30px;
+  left: auto !important;
+  right: 50px;
+  border: none;
+  border-radius: 6px;
+  margin-top: 17px !important;
+}
+.popov .arrow
+{
+  width: 40px;
+  height: 40px;
+  transform: rotate(45deg);
+  background-color: #fff;
+  position: absolute;
+  right: 40px;
+  margin-top: -17px ;
+  z-index: -1;
+}
+.user-dr-toggle
+{
+  cursor: pointer;
+}
+.user-dr-toggle:after
+{
+  display: none;
+}
