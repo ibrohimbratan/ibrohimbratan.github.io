@@ -14,318 +14,324 @@
   </head>
   <body class="bg-light">
 
-    <nav class="navbar navbar-expand-lg border-bottom shadow1 navbar-light bg-light">
-  <div class="container-fluid gx-5">
-    <a class="navbar-brand" href="#"> <img src="images/logo.png" alt="" width="60"> </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse">
-      <div class="col-1"></div>
-      <form class="col">
-        <div class="topsearch">
-          <i class="fas fa-search"></i>
+  <nav class="custom-nav navbar navbar-expand-lg navbar-light bg-light c-overview">
+    <div class="container-fluid gx-5">
+      <div class="row nav-row">
+        <div class="col-auto">
+          <a class="navbar-brand" href="#"> <img src="images/logo.png" alt="" width="60"> </a>
         </div>
-        <input class="form-control me-2 inp-bord" type="search" placeholder="" aria-label="Search">
-        <button class="visually-hidden" type="submit"></button>
-      </form>
-      <div class="col-1"></div>
-      <ul class="navbar-nav col-md-auto">
-        <li class="nav-item btn btn-light">
-          <a class="nav-link active" aria-current="page" href="#">Courses</a>
-        </li>
-        <li class="nav-item btn btn-light">
-          <a class="nav-link" href="#">About</a>
-        </li>
-      </ul>
-      <div class="col-md-auto">
-        <a href="#" class="btn btn-info sign-in-button">Sing in</a>
+        <div class="col">
+          <div class="row justify-content-end" id="navbarSupportedContent">
+            <div class="col-1 hidden-sm"></div>
+            <form class="col align-items-center d-flex hidden-sm">
+              <div class="topsearch">
+                <i class="fas fa-search"></i>
+              </div>
+              <input class="form-control me-2 inp-bord" type="search" placeholder="" aria-label="Search">
+              <button class="visually-hidden" type="submit"></button>
+            </form>
+            <div class="col-1 hidden-sm"></div>
+
+            <ul class="nav col-md-auto inline-nav">
+
+              <li class="nav-item btn btn-light">
+                <a class="nav-link active nav-link " aria-current="page" href="#scrollspyHeading1">Courses</a>
+              </li>
+
+              <li class="nav-item btn btn-light">
+                <a class="nav-link active nav-link " aria-current="page" href="#scrollspyHeadingAbout">About</a>
+              </li>
+
+            </ul>
+            <div class="col-auto text-center align-items-center d-flex">
+              <a href="#" class=" btn btn-primary sign-in-button nav-item" data-bs-toggle="modal" data-bs-target="#exampleModal">Sing in</a>
+            </div>
+          </div>
+        </div>
+        <form class="col-12 align-items-center hidden-search hidden-lg">
+          <div class="topsearch">
+            <i class="fas fa-search"></i>
+          </div>
+          <input class="form-control me-2 inp-bord" type="search" placeholder="" aria-label="Search">
+          <button class="visually-hidden" type="submit"></button>
+        </form>
       </div>
     </div>
-  </div>
-</nav><br>
-<!--menu tugadi-->
-<h3>English for Beginners - Learn english easily and perfectly</h3>
+  </nav>
+
+<!--  title-->
+  <section class="container c-title pt-4">
+    <h3>English for Beginners - Learn english easily and perfectly</h3>
     <p>A course by Diana Akhmedova</p>
+  </section>
 
-<section class="container-fluid">
-  <div class="container">
-    <div class="row itms">
-      <div class="col-9">
-        <img src="images/teach.png" alt="">
-        </div>
-      <div class="row col-3 shadow ">
-        <div class=" p-3 h3 text-center">
-          Cours overviw:
-        </div>
-        <div class="starfont">
-          <i class="p-2 far fa-play-circle"></i>  20 Hours video
-        </div>
-        <div class="starfont">
-          <i class="p-2 fas fa-book"></i>  35 Ecercises
-        </div>
-        <div class="starfont">
-          <i class="p-2 fas fa-book-open"></i>  14 Practice tasks
-        </div>
-        <div class="starfont">
-          <i class="p-2 fas fa-language"></i>  Language: English
-        </div>
-        <div class="starfont">
-          <i class="p-2 fas fa-signal"></i>  Level : Beginner
-        </div>
-        <div class="starfont">
-          <i class="p-2 fas fa-sync-alt"></i>  Unlimited Access
-        </div>
-        <div class="starfont">
-          <i class="p-2 fas fa-award"></i>  Certificate of complition
-        </div>
-        <div class="text-center itms p-4">
-          <div class="col-md-auto text-center">
-            <a href="#" class="p-2 btn btn-info px-5 sign-in-button btn-primary">Sotib olish</a>
+  <section class="container">
+      <div class="row itms">
+        <div class="col-9">
+
+          <div class="pb-3">
+            <img src="images/teach.png" class="img-fluid" style="width: 100%">
           </div>
-          <div class="col-md-auto itms text-center">
-            <a href="#" class="p-2 btn btn-info px-5 sign-in-button">Sotib olish</a>
+
+          <div class="shadow1 border p-3 mb-3">
+            <div class="h4 top-fut">
+              You will learn:
+            </div>
+            <div class="row text-muted">
+              <div class="col-6">
+                <div class="starfont">
+                  <i class="p-2 text-muted fas fa-check"></i>  Speak pluently
+                </div>
+                <div class="starfont">
+                  <i class="p-2 text-muted fas fa-check"></i>  Understand
+                </div>
+                <div class="starfont">
+                  <i class="p-2 text-muted fas fa-check"></i>  English grammer
+                </div>
+                <div class="starfont">
+                  <i class="p-2 text-muted fas fa-check"></i>  Read past
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="starfont">
+                  <i class="p-2 text-muted fas fa-check"></i>  Speak pluently
+                </div>
+                <div class="starfont">
+                  <i class="p-2 text-muted fas fa-check"></i>  Understand
+                </div>
+                <div class="starfont">
+                  <i class="p-2 text-muted fas fa-check"></i>  English grammer
+                </div>
+                <div class="starfont">
+                  <i class="p-2 text-muted fas fa-check"></i>  Read past
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="shadow1 border p-3 mb-3">
+            <h4>Description</h4>
+            <div>
+              <p>Tish courses is for beginners learning English. Through the course you can learen</p>
+              <p>pronunciation, English grammar and speech.</p>
+              <p>All classes are online.</p>
+              <p>In doing so, you do the following:</p>
+              <br>
+              <p>-View video tutorials</p>
+              <p>-Exercise</p>
+              <p>-Homework</p>
+              <br>
+              <p>Each complated exercise will be evaluited, and at the and of each Unit you will be awarded </p>
+              <p>an asterisk based on the score</p>
+              <br>
+              <p>Ts in  possible to track your own progress</p>
+              <p>At the end of the course you will be awaeded a Certificate</p>
+            </div>
+          </div>
+
+          <div class="py-3 mb-3">
+            <div class="px-5">
+              <div class="row justify-content-between">
+                <div class="col-auto">
+                  <h3>Course plan</h3>
+                </div>
+                <div class="col-auto align-self-center">
+                  <b>Total:</b>
+                  <span>56 Lessons | 12h 10 min</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion c-overview-accordion" id="c-overview-accordion">
+
+              <div class="accordion-item">
+                <div class="accordion-header" id="heading0">
+                  <div class="accordion-button px-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapse0" aria-controls="collapseOne">
+                    <div class="row justify-content-between px-3">
+                      <div class="col-8">
+                        <b>Unit: 1.</b>
+                        <span class="ps-2">
+                             How to skype to etach English online
+                          </span>
+                      </div>
+                      <div class="col-auto align-self-center">
+                        <span>3 Lessons | 1h 60min</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="collapse0" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#c-overview-accordion">
+                  <div class="accordion-body">
+                    <div class="row px-2 mb-2">
+                      <div class="col-auto play-icon">
+                        <i class="far fa-play-circle"></i>
+                      </div>
+                      <div class="col">
+                        Let's get acquainted with nature
+                      </div>
+                      <div class="col-auto">
+                        5:10min
+                      </div>
+                    </div>
+                    <div class="row px-2 mb-2">
+                      <div class="col-auto play-icon">
+                        <i class="far fa-play-circle"></i>
+                      </div>
+                      <div class="col">
+                        Let's get acquainted with nature
+                      </div>
+                      <div class="col-auto">
+                        5:10min
+                      </div>
+                    </div>
+                    <div class="row px-2 mb-2">
+                      <div class="col-auto play-icon">
+                        <i class="far fa-play-circle"></i>
+                      </div>
+                      <div class="col">
+                        Let's get acquainted with nature
+                      </div>
+                      <div class="col-auto">
+                        5:10min
+                      </div>
+                    </div>
+                    <div class="row px-2 mb-2">
+                      <div class="col-auto play-icon">
+                        <i class="far fa-play-circle"></i>
+                      </div>
+                      <div class="col">
+                        Let's get acquainted with nature
+                      </div>
+                      <div class="col-auto">
+                        5:10min
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <div class="accordion-header" id="heading1">
+                  <div class="accordion-button px-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-controls="collapse1">
+                    <div class="row justify-content-between px-3">
+                      <div class="col-8">
+                        <b>Unit: 1.</b>
+                        <span class="ps-2">
+                             How to skype to etach English online
+                          </span>
+                      </div>
+                      <div class="col-auto align-self-center">
+                        <span>3 Lessons | 1h 60min</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#c-overview-accordion">
+                  <div class="accordion-body">
+
+                    <div class="row px-2 mb-2">
+                      <div class="col-auto play-icon">
+                        <i class="far fa-play-circle"></i>
+                      </div>
+                      <div class="col">
+                        Let's get acquainted with nature
+                      </div>
+                      <div class="col-auto">
+                        5:10min
+                      </div>
+                    </div>
+                    <div class="row px-2 mb-2">
+                      <div class="col-auto play-icon">
+                        <i class="far fa-play-circle"></i>
+                      </div>
+                      <div class="col">
+                        Let's get acquainted with nature
+                      </div>
+                      <div class="col-auto">
+                        5:10min
+                      </div>
+                    </div>
+                    <div class="row px-2 mb-2">
+                      <div class="col-auto play-icon">
+                        <i class="far fa-play-circle"></i>
+                      </div>
+                      <div class="col">
+                        Let's get acquainted with nature
+                      </div>
+                      <div class="col-auto">
+                        5:10min
+                      </div>
+                    </div>
+                    <div class="row px-2 mb-2">
+                      <div class="col-auto play-icon">
+                        <i class="far fa-play-circle"></i>
+                      </div>
+                      <div class="col">
+                        Let's get acquainted with nature
+                      </div>
+                      <div class="col-auto">
+                        5:10min
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
           </div>
         </div>
+
+        <div class="col-3">
+          <div class="shadow border ">
+            <div class="py-3 h4 text-center border-bottom">
+              Cours overviw:
+            </div>
+            <div class="px-4 pb-3">
+              <div class="py-1">
+                <i class="p-2 far fa-play-circle"></i>  20 Hours video
+              </div>
+              <div class="py-1">
+                <i class="p-2 fas fa-book"></i>  35 Ecercises
+              </div>
+              <div class="py-1">
+                <i class="p-2 fas fa-book-open"></i>  14 Practice tasks
+              </div>
+              <div class="py-1">
+                <i class="p-2 fas fa-language"></i>  Language: English
+              </div>
+              <div class="py-1">
+                <i class="p-2 fas fa-signal"></i>  Level : Beginner
+              </div>
+              <div class="py-1">
+                <i class="p-2 fas fa-sync-alt"></i>  Unlimited Access
+              </div>
+              <div class="py-1">
+                <i class="p-2 fas fa-award"></i>  Certificate of complition
+              </div>
+              <div class="px-3">
+                <div class="col-md-auto text-center py-3">
+                  <div class="row">
+                    <a href="#" class="btn btn-info px-5 c-overview-btn-reverse col">Sotib olish</a>
+                  </div>
+                </div>
+                <div class="col-md-auto text-center">
+                  <div class="row">
+                    <a href="#" class="btn btn-info px-5 c-overview-btn col">Sotib olish</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
-        <section class="container-fluid">
-          <div class="container">
-            <div class="row shadow1 itms">
-              <div class="col-9">
-                <div class="h5 border-top top-fut">
-                  You will learn:
-                </div>
-                <div class="row text-muted">
-                  <div class="col-6">
-                    <div class="starfont">
-                      <i class="p-2 text-muted fas fa-check"></i>  Speak pluently
-                    </div>
-                    <div class="starfont">
-                      <i class="p-2 text-muted fas fa-check"></i>  Understand
-                    </div>
-                    <div class="starfont">
-                      <i class="p-2 text-muted fas fa-check"></i>  English grammer
-                    </div>
-                    <div class="starfont">
-                      <i class="p-2 text-muted fas fa-check"></i>  Read past
-                    </div>
-                  </div>
-                  <div class="col-6">
-                    <div class="starfont">
-                      <i class="p-2 text-muted fas fa-check"></i>  Speak pluently
-                    </div>
-                    <div class="starfont">
-                      <i class="p-2 text-muted fas fa-check"></i>  Understand
-                    </div>
-                    <div class="starfont">
-                      <i class="p-2 text-muted fas fa-check"></i>  English grammer
-                    </div>
-                    <div class="starfont">
-                      <i class="p-2 text-muted fas fa-check"></i>  Read past
-                    </div>
-                  </div>
-                </div>
-            </div>
-            </div>
-          </div>
-        </section>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- Vertically centered modal -->
-<!--uchinchi sections-->
-<section class="container-fluid">
-  <div class="container">
-    <div class="row itms shadow1">
-      <div class="col-9">
-        <h4>Description</h4>
-        <div>
-          <p>Tish courses is for beginners learning English. Through the course you can learen</p>
-          <p>pronunciation, English grammar and speech.</p>
-          <p>All classes are online.</p>
-          <p>In doing so, you do the following:</p>
-         <br>
-          <p>-View video tutorials</p>
-          <p>-Exercise</p>
-          <p>-Homework</p>
-          <br>
-          <p>Each complated exercise will be evaluited, and at the and of each Unit you will be awarded </p>
-          <p>an asterisk based on the score</p>
-          <br>
-          <p>Ts in  possible to track your own progress</p>
-          <p>At the end of the course you will be awaeded a Certificate</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<div class="container-fluid">
-  <div class="container">
-        <div class="row">
-          <div class="col-4">Course plan</div>
-          <div class="col-4">Total</div>56 lesson | 12 h 10 min
-
-          <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree1">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  <strong>Unit: 1.</strong> How to skype to etach  English online
-                </button>
-              </h2>
-              <div id="collapseThree12" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <div class="starfont">
-                    <i class="far fa-play-circle"></i>
-                    <div class="col">Let's get acquainted with  nature </div>
-                    <div class="col">5:10 min</div>
-                  </div>
-                  <div class="starfont">
-                    <i class="far fa-play-circle"></i>
-                    <div class="col">Let's get acquainted with  nature </div>
-                    <div class="col">5:10 min</div>
-                  </div>
-                  <div class="starfont">
-                    <i class="far fa-play-circle"></i>
-                    <div class="col">Let's get acquainted with  nature </div>
-                    <div class="col">5:10 min</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree123">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  <strong>Unit: 2.</strong> How to skype to etach  English online
-                </button>
-              </h2>
-              <div id="collapseThree123" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <div class="starfont">
-                    <i class="far fa-play-circle"></i>
-                    <div class="col">Let's get acquainted with  nature </div>
-                    <div class="col">5:10 min</div>
-                  </div>
-                  <div class="starfont">
-                    <i class="far fa-play-circle"></i>
-                    <div class="col">Let's get acquainted with  nature </div>
-                    <div class="col">5:10 min</div>
-                  </div>
-                  <div class="starfont">
-                    <i class="far fa-play-circle"></i>
-                    <div class="col">Let's get acquainted with  nature </div>
-                    <div class="col">5:10 min</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree11">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  <strong>Unit: 3.</strong> How to skype to etach  English online
-                </button>
-              </h2>
-              <div id="collapseThree11" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <div class="starfont">
-                    <i class="far fa-play-circle"></i>
-                    <div class="col">Let's get acquainted with  nature </div>
-                    <div class="col">5:10 min</div>
-                  </div>
-                  <div class="starfont">
-                    <i class="far fa-play-circle"></i>
-                    <div class="col">Let's get acquainted with  nature </div>
-                    <div class="col">5:10 min</div>
-                  </div>
-                  <div class="starfont">
-                    <i class="far fa-play-circle"></i>
-                    <div class="col">Let's get acquainted with  nature </div>
-                    <div class="col">5:10 min</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree112">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree112">
-                  <strong>Unit: 4.</strong> How to skype to etach  English online
-                </button>
-              </h2>
-              <div id="collapseThree112" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <div class="starfont">
-                    <i class="far fa-play-circle"></i>
-                    <div class="col">Let's get acquainted with  nature </div>
-                    <div class="col">5:10 min</div>
-                  </div>
-                  <div class="starfont">
-                    <i class="far fa-play-circle"></i>
-                    <div class="col">Let's get acquainted with  nature </div>
-                    <div class="col">5:10 min</div>
-                  </div>
-                  <div class="starfont">
-                    <i class="far fa-play-circle"></i>
-                    <div class="col">Let's get acquainted with  nature </div>
-                    <div class="col">5:10 min</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  <strong>Unit: 5.</strong> How to skype to etach  English online
-                </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <div class="starfont">
-                    <i class="far fa-play-circle"></i>
-                    <div class="col">Let's get acquainted with  nature </div>
-                    <div class="col">5:10 min</div>
-                  </div>
-                  <div class="starfont">
-                    <i class="far fa-play-circle"></i>
-                    <div class="col">Let's get acquainted with  nature </div>
-                    <div class="col">5:10 min</div>
-                  </div>
-                  <div class="starfont">
-                    <i class="far fa-play-circle"></i>
-                    <div class="col">Let's get acquainted with  nature </div>
-                    <div class="col">5:10 min</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col">
-                <img src="images/teacher2.jpg" class="img-thumbnail" alt="image_teacher">
-              </div>
-              <div class="col">
-                <h4>Diana Akhmedova</h4>
-                <p class="text-muted">English teacher</p>
-                <div class="p-1">
-                  <i class="far fa-play-circle"></i>
-                </div>
-                <div class="rep"></div>
-
-              </div>
-            </div>
-          </div>
-          </div>
-
-    </div>
-  </div>
-</div>
+  </section>
 
 
 
 
-<section class="container-fluid">
+
+<section class="container-fluid border-top">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-3">
@@ -380,7 +386,7 @@
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<!--    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>-->
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
 
