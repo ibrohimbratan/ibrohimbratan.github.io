@@ -1,5 +1,12 @@
 @media (max-width: 768px)
 {
+    /*xatoliklarni tuzatish oxirgi*/
+    .make {
+        font-size: 22px;
+    }
+
+    /*tigadi*/
+
     .foyz-border {
         border-radius: 0;
         border: none;
