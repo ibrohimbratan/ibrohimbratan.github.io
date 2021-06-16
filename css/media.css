@@ -68,7 +68,7 @@
     }
     .shadow {
         border-radius: 10px;
-        right: 20px;
+        right: 25px;
         height: 324px;
         width: 248px;
     }
@@ -93,7 +93,24 @@
     .juntifi {
         margin: 2px 20px;
     }
-
+    .h4, h4 {
+        font-size: 14px;
+        line-height: 19.87px;
+    }
+    .display-5 {
+        font-size: 23px;
+        font-weight: 500;
+        line-height: 28.02px;
+    }
+    .bedern {
+        font-size: 16px;
+        line-height: 18.36px;
+    }
+    .bef-div {
+        flex: 0 0 auto;
+        width: 255px;
+        height: 255px;
+    }
     /*corusel cours*/
     /*xatoliklarni tuzatish oxirgi*/
     .make {
