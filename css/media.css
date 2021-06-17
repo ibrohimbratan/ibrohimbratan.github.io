@@ -78,7 +78,7 @@
     .diana {
         border-radius: 10px;
         right: 17px;
-        margin-left: 30px;
+        margin-left: 35px;
         height: 255px;
         width: 255px;
     }
@@ -156,7 +156,7 @@
 
     .modal {
         position: fixed;
-        top: -80px;
+        top: 12px;
         left: 0;
         z-index: 1060;
         display: none;

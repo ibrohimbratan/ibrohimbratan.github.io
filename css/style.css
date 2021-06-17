@@ -139,7 +139,7 @@ height: 200px;
 }
 .diana
 {
-  width: 295 px;
+  width: 295px;
   height: 295px
 ;
 }
@@ -271,11 +271,33 @@ border-right: 1px solid #ccc;
   margin-top: -100px;
 
 }
+.sign-size
+{
+  font-size: 16px;
+  font-weight: 600;
+}
+.signfk
+{
+  font-size: 18px;
+  font-weight: 600;
+}
+.signtext
+{
+  font-size: 14px;
+  font-weight: 500;
+}
 .modlabod{
-  padding: 2rem;
+  width: 280px;
+  height: auto;
+  margin: 0 -10px;
+}
+.signtext23
+{
+  font-size: 23px;
+  font-weight: 500;
 }
 .icon-set{
-  margin-bottom: 25px;
+  margin-bottom: 13px;
 
 }
 .icon-set img{
@@ -284,7 +306,7 @@ border-right: 1px solid #ccc;
   padding: 10px;
 }
 .modal-radius{
-  border-radius: 25px;
+  border-radius: 14px;
 }
 .loock-modal{
   width: 200px;
@@ -449,7 +471,7 @@ color: white;
   margin-bottom: -0.5rem;
 }
 .but-width{
-  width: 315px;
+  width: 243px;
 }
 .noobe p{
   margin-bottom: 0px;
