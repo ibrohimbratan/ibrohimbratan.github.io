@@ -1,8 +1,8 @@
 @media (max-width: 575px)
 {
-    body {
-        width: 375px;
-    }
+    /*body {*/
+    /*    width: 375px;*/
+    /*}*/
     .modlabod {
         width: 280px;
         height: auto;
@@ -81,7 +81,6 @@
     }
     .imgtop {
         margin-bottom: -71px;
-        carousel
     }
     .saripov{
         border-radius: 10px;
@@ -269,6 +268,51 @@
     .ccarousel .owl-stage{
         left: -50px;
     }
+    .happy-girl
+    {
+        position: absolute;
+        margin-left: -35px;
+    }
+    .txt-dream::after
+    {
+        content: "\a";
+        white-space: pre;
+    }
+    .txt-mk-your, .txt-dream
+    {
+        font-size: 22px;
+    }
+    .txt-ct
+    {
+        font-size: 38px;
+    }
+    .studt
+    {
+        font-size: 13px;
+    }
+    .makeyour
+    {
+        line-height: 12px;
+        margin-bottom: 13px;
+    }
+    .makeyour, .studt
+    {
+        text-align: right;
+    }
+    .br-sm::after
+    {
+        content: "\a";
+        white-space: pre;
+    }
+    .main-banner-row
+    {
+        padding-top: 30px;
+        min-height: 315px;
+    }
+    .main-banner-row div:first-child
+    {
+        align-self: flex-start!important;
+    }
 }
 @media (min-width: 575px)
 {
@@ -276,15 +320,9 @@
     {
         display: none !important;
     }
-
-<<<<<<< HEAD
+    .txt-mk-your::after
+    {
+        content: "\a";
+        white-space: pre;
+    }
 }
-
-=======
-/*@media (max-width: 768px){*/
-/*    .corusel-width {*/
-/*        width: 427px;*/
-/*        column-gap: 20px;*/
-/*    }*/
-/*}*/
->>>>>>> 887af9a11019e73d78a68510be87e8100ff4b40f
