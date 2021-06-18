@@ -3,14 +3,11 @@
     body {
         width: 375px;
     }
-    .row {
-        --bs-gutter-x: 0.5rem;
-        --bs-gutter-y: 0;
-        display: flex;
-        flex-wrap: wrap;
-        margin-top: calc(var(--bs-gutter-y) * -1);
-        margin-right: calc(var(--bs-gutter-x)/ -2);
-        margin-left: calc(var(--bs-gutter-x)/ -2);
+    .modlabod {
+        width: 280px;
+        height: auto;
+        margin: 19px -10px;
+        margin-left: -15px;
     }
     .border
     {
@@ -131,6 +128,14 @@
     }
     .fw-normal {
         font-weight: 500!important;
+        font-size: 14px;
+    }
+    .shadow.ourcontact {
+        border-radius: 10px !important;
+        right: 25px !important;
+        height: 235px !important;
+        width: 231px !important;
+        margin: auto;
     }
     /*corusel cours*/
     /*xatoliklarni tuzatish oxirgi*/

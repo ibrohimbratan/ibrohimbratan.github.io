@@ -140,8 +140,8 @@ height: 200px;
 .diana
 {
   width: 295px;
-  height: 295px
-;
+  height: 295px;
+  hyphens: auto;
 }
 .imgtop {
   margin-bottom: -85px;
@@ -183,10 +183,7 @@ height: 200px;
   margin-top:27px ;
 }
 /* 7Desctop */
-.brdr{
-  border-radius: 5px;
-  border: solid 1px #eee;
-}
+/**/
 .futer-logo img{
   width: 80px;
   height: 80px;
@@ -290,6 +287,29 @@ border-right: 1px solid #ccc;
   width: 280px;
   height: auto;
   margin: 0 -10px;
+  margin-left: 92px;
+}
+.goalssize
+{
+  font-size: 16px;
+  font-weight: 500 !important;
+  font-style: normal;
+  line-height: 19.78px;
+}
+.fw-normal
+{
+  font-size: 24px;
+}
+.edvitop
+{
+  margin: 104px 0px;
+}
+.goalh
+{
+  font-size: 35px;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 48px;
 }
 .signtext23
 {
