@@ -3,6 +3,11 @@
 
 $(function (){
 
+  $('#winsize').text(window.innerWidth);
+
+  $(window).resize(function () {
+    $('#winsize').text(window.innerWidth);
+  })
 
   $('.carousel').owlCarousel({
     loop: false,

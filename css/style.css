@@ -590,3 +590,16 @@ curslink :hover
 {
   color: black;
 }
+#winsize
+{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: #1a1e21;
+  color: #fff;
+  min-width: 80px;
+  min-height: 20px;
+  z-index: 99999;
+  text-align: center;
+  padding: 5px;
+}
