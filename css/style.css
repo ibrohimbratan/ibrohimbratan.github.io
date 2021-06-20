@@ -593,8 +593,8 @@ curslink :hover
 #winsize
 {
   position: fixed;
-  bottom: 0;
-  right: 0;
+  bottom: 40px;
+  right: 10px;
   background-color: #1a1e21;
   color: #fff;
   min-width: 80px;
