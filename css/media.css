@@ -280,7 +280,7 @@
     }
     .txt-mk-your, .txt-dream
     {
-        font-size: 22px;
+        font-size: 21px;
     }
     .txt-ct
     {
@@ -323,18 +323,38 @@
         width: 220px;
         margin-left: -17px;
     }
+    .makeyour, .studt {
+        text-align: right;
+    }
+    .makeyour {
+        line-height: 17px;
+        margin-bottom: 13px;
+    }
+    .shadow {
+        border-radius: 10px;
+        right: 32px;
+        height: 319px;
+        width: 216px;
+    }
+}
+@media (max-width: 320px)
+{
+    .studt {
+        font-size: 12px;
+    }
+    .txt-ct {
+        font-size: 34px;
+    }
+    .txt-mk-your, .txt-dream {
+        font-size: 19px;
+    }
+    .shadow.diana {
+        border-radius: 10px;
+        right: 17px;
+        margin-left: 19px;
+        height: 255px;
+        width: 255px;
+    }
 }
 
-@media (min-width: 575px)
-{
-    a.vectorad
-    {
-        display: none !important;
-    }
-    .txt-mk-your::after
-    {
-        content: "\a";
-        white-space: pre;
-    }
-}
 
