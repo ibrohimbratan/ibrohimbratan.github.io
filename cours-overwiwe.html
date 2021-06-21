@@ -1,536 +1,592 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="fontawesome/css/all.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
     <title> course overwiw </title>
-  </head>
-  <body class="bg-light">
+</head>
+<body class="bg-light">
 
-  <nav class="custom-nav navbar navbar-expand-lg navbar-light bg-light">
+<nav class="custom-nav navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid gx-5">
-      <div class="row nav-row">
-        <div class="col-auto">
-          <a class="navbar-brand" href="#"> <img src="images/logo.png" alt="" width="60"> </a>
-        </div>
-        <div class="col">
-          <div class="row justify-content-center" id="navbarSupportedContent">
-            <div class="col-1 hidden-sm"></div>
-            <form class="col align-items-center d-flex hidden-sm">
-              <div class="topsearch">
-                <i class="fas fa-search"></i>
-              </div>
-              <input class="form-control me-2 inp-bord" type="search" placeholder="" aria-label="Search">
-              <button class="visually-hidden" type="submit"></button>
-            </form>
-            <div class="col-1 hidden-sm"></div>
-
-            <ul class="nav col-md-auto inline-nav">
-
-              <li class="nav-item btn btn-light">
-                <a class="nav-link active nav-link " aria-current="page" href="#scrollspyHeading1">Courses</a>
-              </li>
-
-              <li class="nav-item btn btn-light">
-                <a class="nav-link active nav-link " aria-current="page" href="#scrollspyHeadingAbout">About</a>
-              </li>
-
-            </ul>
-
-            <div class="col-auto text-center align-items-center d-flex">
-              <div class="container">
-                <div class="col-auto">
-                  <div class="prog-pratsent row dropdown-toggle user-dr-toggle" data-bs-toggle="dropdown">
-                    <div class="col align-self-center text-center" id="usr_panel">
-                      <b>FK</b>
-                    </div>
-                  </div>
-                  <div class="dropdown-menu popov" aria-labelledby="usr_panel">
-                    <div class="arrow"></div>
-                    <div class="row">
-                      <div class="col-auto align-self-center">
-                        <div class="prog-pratsent row">
-                          <div class="col align-self-center text-center">
-                            <b>FK</b>
-                          </div>
+        <div class="row nav-row">
+            <div class="col-auto">
+                <a class="navbar-brand" href="#"> <img src="images/logo.png" alt="" width="60"> </a>
+            </div>
+            <div class="col">
+                <div class="row justify-content-center" id="navbarSupportedContent">
+                    <div class="col-1 hidden-sm"></div>
+                    <form class="col align-items-center d-flex hidden-sm">
+                        <div class="topsearch">
+                            <i class="fas fa-search"></i>
                         </div>
-                      </div>
-                      <div class="col popovrmargn-left ">
-                        <div class="text-truncate h4">
-                          Faruh Korchiev
-                        </div>
-                        <div class="">
+                        <input class="form-control me-2 inp-bord" type="search" placeholder="" aria-label="Search">
+                        <button class="visually-hidden" type="submit"></button>
+                    </form>
+                    <div class="col-1 hidden-sm"></div>
+
+                    <ul class="nav col-md-auto inline-nav">
+
+                        <li class="nav-item btn btn-light">
+                            <a class="nav-link active nav-link " aria-current="page"
+                               href="#scrollspyHeading1">Courses</a>
+                        </li>
+
+                        <li class="nav-item btn btn-light">
+                            <a class="nav-link active nav-link " aria-current="page"
+                               href="#scrollspyHeadingAbout">About</a>
+                        </li>
+
+                    </ul>
+
+                    <div class="col-auto text-center align-items-center d-flex">
+                        <div class="container">
+                            <div class="col-auto">
+                                <div class="prog-pratsent row dropdown-toggle user-dr-toggle" data-bs-toggle="dropdown">
+                                    <div class="col align-self-center text-center" id="usr_panel">
+                                        <b>FK</b>
+                                    </div>
+                                </div>
+                                <div class="dropdown-menu popov" aria-labelledby="usr_panel">
+                                    <div class="arrow"></div>
+                                    <div class="row">
+                                        <div class="col-auto align-self-center">
+                                            <div class="prog-pratsent row">
+                                                <div class="col align-self-center text-center">
+                                                    <b>FK</b>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col popovrmargn-left ">
+                                            <div class="text-truncate h4">
+                                                Faruh Korchiev
+                                            </div>
+                                            <div class="">
                                                     <span class="text-muted starfont">
                                                       fkorchiev@gmail.com
                                                     </span>
-                          <div class="h-5 starfont">
-                            <i class="fas fa-sign-in-alt"></i> Log out
-                          </div>
+                                                <div class="h-5 starfont">
+                                                    <i class="fas fa-sign-in-alt"></i> Log out
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                      </div>
                     </div>
-                  </div>
                 </div>
-              </div>
             </div>
-          </div>
+            <form class="col-12 align-items-center hidden-search hidden-lg">
+                <div class="topsearch">
+                    <i class="fas fa-search"></i>
+                </div>
+                <input class="form-control me-2 inp-bord" type="search" placeholder="" aria-label="Search">
+                <button class="visually-hidden" type="submit"></button>
+            </form>
         </div>
-        <form class="col-12 align-items-center hidden-search hidden-lg">
-          <div class="topsearch">
-            <i class="fas fa-search"></i>
-          </div>
-          <input class="form-control me-2 inp-bord" type="search" placeholder="" aria-label="Search">
-          <button class="visually-hidden" type="submit"></button>
-        </form>
-      </div>
     </div>
-  </nav>
+</nav>
 
 <!--  title-->
-  <section class="container c-title pt-4">
+<section class="container c-title pt-4">
     <h3>English for Beginners - Learn english easily and perfectly</h3>
     <p>A course by Diana Akhmedova</p>
-  </section>
+</section>
 
-  <section class="container">
+<section class="container">
     <div class="row itms">
-      <div class="col-12 col-lg-9">
+        <div class="col-12 col-lg-9 ">
 
-        <div class="pb-3">
-          <img src="images/teach.png" class="img-fluid" style="width: 100%">
-        </div>
-<!--        you will learn-->
-        <div class="shadow1 border-none border p-3 mb-3">
-          <div class="h4 top-fut">
-            You will learn:
-          </div>
-          <div class="row text-muted">
-            <div class="col-6">
-              <div class="starfont">
-                <i class="p-2 text-muted fas fa-check"></i>  Speak pluently
-              </div>
-              <div class="starfont">
-                <i class="p-2 text-muted fas fa-check"></i>  Understand
-              </div>
-              <div class="starfont">
-                <i class="p-2 text-muted fas fa-check"></i>  English grammer
-              </div>
-              <div class="starfont">
-                <i class="p-2 text-muted fas fa-check"></i>  Read past
-              </div>
+            <div class="pb-3">
+                <img src="images/teach.png" class="img-fluid" style="width: 100%">
             </div>
-            <div class="col-6">
-              <div class="starfont">
-                <i class="p-2 text-muted fas fa-check"></i>  Speak pluently
-              </div>
-              <div class="starfont">
-                <i class="p-2 text-muted fas fa-check"></i>  Understand
-              </div>
-              <div class="starfont">
-                <i class="p-2 text-muted fas fa-check"></i>  English grammer
-              </div>
-              <div class="starfont">
-                <i class="p-2 text-muted fas fa-check"></i>  Read past
-              </div>
+
+            <div class="mb-5 hidden-lg">
+                <div class="h3 pb-4">
+                    Cours overviw:
+                </div>
+                <div class="pb-3">
+                    <div class="py-1">
+                        <i class="p-2 far fa-play-circle"></i> 20 Hours video
+                    </div>
+                    <div class="py-1">
+                        <i class="p-2 fas fa-book"></i> 35 Ecercises
+                    </div>
+                    <div class="py-1">
+                        <i class="p-2 fas fa-book-open"></i> 14 Practice tasks
+                    </div>
+                    <div class="py-1">
+                        <i class="p-2 fas fa-language"></i> Language: English
+                    </div>
+                    <div class="py-1">
+                        <i class="p-2 fas fa-signal"></i> Level : Beginner
+                    </div>
+                    <div class="py-1">
+                        <i class="p-2 fas fa-sync-alt"></i> Unlimited Access
+                    </div>
+                    <div class="py-1">
+                        <i class="p-2 fas fa-award"></i> Certificate of complition
+                    </div>
+                    <div class="col-md-auto text-center py-3 px-0">
+                        <div class="row">
+                            <div class="col">
+                                <a href="experises.html" class="btn btn-info px-5 c-overview-btn col">Trial
+                                    version</a>
+                            </div>
+                            <div class="col">
+                                <a href="prise.html" class="btn btn-info px-5 c-overview-btn-reverse col"
+                                   role="button">Buy course</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-<!--        description-->
-        <div class="shadow1 border p-3 mb-3">
-          <h4>Description</h4>
-          <div>
-            <p>Tish courses is for beginners learning English. Through the course you can learen</p>
-            <p>pronunciation, English grammar and speech.</p>
-            <p>All classes are online.</p>
-            <p>In doing so, you do the following:</p>
-            <br>
-            <p>-View video tutorials</p>
-            <p>-Exercise</p>
-            <p>-Homework</p>
-            <br>
-            <p>Each complated exercise will be evaluited, and at the and of each Unit you will be awarded </p>
-            <p>an asterisk based on the score</p>
-            <br>
-            <p>Ts in  possible to track your own progress</p>
-            <p>At the end of the course you will be awaeded a Certificate</p>
-          </div>
-        </div>
 
-        <div class="py-3 mb-3">
-          <div class="px-5">
-            <div class="row justify-content-between">
-              <div class="col-auto">
-                <h3>Course plan</h3>
-              </div>
-              <div class="col-auto align-self-center">
-                <b>Total:</b>
-                <span>56 Lessons | 12h 10 min</span>
-              </div>
+            <!--        you will learn-->
+            <div class="shadow1 border-none border p-3 mb-3">
+                <div class="h4 top-fut">
+                    You will learn:
+                </div>
+                <div class="row text-muted">
+                    <div class="col-6">
+                        <div class="starfont">
+                            <i class="p-2 text-muted fas fa-check"></i> Speak pluently
+                        </div>
+                        <div class="starfont">
+                            <i class="p-2 text-muted fas fa-check"></i> Understand
+                        </div>
+                        <div class="starfont">
+                            <i class="p-2 text-muted fas fa-check"></i> English grammer
+                        </div>
+                        <div class="starfont">
+                            <i class="p-2 text-muted fas fa-check"></i> Read past
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="starfont">
+                            <i class="p-2 text-muted fas fa-check"></i> Speak pluently
+                        </div>
+                        <div class="starfont">
+                            <i class="p-2 text-muted fas fa-check"></i> Understand
+                        </div>
+                        <div class="starfont">
+                            <i class="p-2 text-muted fas fa-check"></i> English grammer
+                        </div>
+                        <div class="starfont">
+                            <i class="p-2 text-muted fas fa-check"></i> Read past
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
+            <!--        description-->
+            <div class="shadow1 border p-3 mb-3">
+                <h4>Description</h4>
+                <div>
+                    <p>Tish courses is for beginners learning English. Through the course you can learen</p>
+                    <p>pronunciation, English grammar and speech.</p>
+                    <p>All classes are online.</p>
+                    <p>In doing so, you do the following:</p>
+                    <br>
+                    <p>-View video tutorials</p>
+                    <p>-Exercise</p>
+                    <p>-Homework</p>
+                    <br>
+                    <p>Each complated exercise will be evaluited, and at the and of each Unit you will be awarded </p>
+                    <p>an asterisk based on the score</p>
+                    <br>
+                    <p>Ts in possible to track your own progress</p>
+                    <p>At the end of the course you will be awaeded a Certificate</p>
+                </div>
+            </div>
 
-          <div class="accordion c-overview-accordion" id="c-overview-accordion">
+            <div class="py-3 mb-3">
+                <div class="px-5">
+                    <div class="row justify-content-between">
+                        <div class="col-auto">
+                            <h3>Course plan</h3>
+                        </div>
+                        <div class="col-auto align-self-center">
+                            <b>Total:</b>
+                            <span>56 Lessons | 12h 10 min</span>
+                        </div>
+                    </div>
+                </div>
 
-            <div class="accordion-item">
-              <div class="accordion-header" id="heading0">
-                <div class="accordion-button px-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapse0" aria-controls="collapseOne">
-                  <div class="row justify-content-between px-3">
-                    <div class="col-8">
-                      <b>Unit: 1.</b>
-                      <span class="ps-2">
+                <div class="accordion c-overview-accordion" id="c-overview-accordion">
+
+                    <div class="accordion-item">
+                        <div class="accordion-header" id="heading0">
+                            <div class="accordion-button px-3" type="button" data-bs-toggle="collapse"
+                                 data-bs-target="#collapse0" aria-controls="collapseOne">
+                                <div class="row justify-content-between px-3">
+                                    <div class="col-8">
+                                        <b>Unit: 1.</b>
+                                        <span class="ps-2">
                              How to skype to etach English online
                           </span>
+                                    </div>
+                                    <div class="col-auto align-self-center">
+                                        <span>3 Lessons | 1h 60min</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="collapse0" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                             data-bs-parent="#c-overview-accordion">
+                            <div class="accordion-body">
+                                <div class="row px-2 mb-2">
+                                    <div class="col-auto play-icon">
+                                        <i class="far fa-play-circle"></i>
+                                    </div>
+                                    <div class="col">
+                                        Let's get acquainted with nature
+                                    </div>
+                                    <div class="col-auto">
+                                        5:10min
+                                    </div>
+                                </div>
+                                <div class="row px-2 mb-2">
+                                    <div class="col-auto play-icon">
+                                        <i class="far fa-play-circle"></i>
+                                    </div>
+                                    <div class="col">
+                                        Let's get acquainted with nature
+                                    </div>
+                                    <div class="col-auto">
+                                        5:10min
+                                    </div>
+                                </div>
+                                <div class="row px-2 mb-2">
+                                    <div class="col-auto play-icon">
+                                        <i class="far fa-play-circle"></i>
+                                    </div>
+                                    <div class="col">
+                                        Let's get acquainted with nature
+                                    </div>
+                                    <div class="col-auto">
+                                        5:10min
+                                    </div>
+                                </div>
+                                <div class="row px-2 mb-2">
+                                    <div class="col-auto play-icon">
+                                        <i class="far fa-play-circle"></i>
+                                    </div>
+                                    <div class="col">
+                                        Let's get acquainted with nature
+                                    </div>
+                                    <div class="col-auto">
+                                        5:10min
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-auto align-self-center">
-                      <span>3 Lessons | 1h 60min</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div id="collapse0" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#c-overview-accordion">
-                <div class="accordion-body">
-                  <div class="row px-2 mb-2">
-                    <div class="col-auto play-icon">
-                      <i class="far fa-play-circle"></i>
-                    </div>
-                    <div class="col">
-                      Let's get acquainted with nature
-                    </div>
-                    <div class="col-auto">
-                      5:10min
-                    </div>
-                  </div>
-                  <div class="row px-2 mb-2">
-                    <div class="col-auto play-icon">
-                      <i class="far fa-play-circle"></i>
-                    </div>
-                    <div class="col">
-                      Let's get acquainted with nature
-                    </div>
-                    <div class="col-auto">
-                      5:10min
-                    </div>
-                  </div>
-                  <div class="row px-2 mb-2">
-                    <div class="col-auto play-icon">
-                      <i class="far fa-play-circle"></i>
-                    </div>
-                    <div class="col">
-                      Let's get acquainted with nature
-                    </div>
-                    <div class="col-auto">
-                      5:10min
-                    </div>
-                  </div>
-                  <div class="row px-2 mb-2">
-                    <div class="col-auto play-icon">
-                      <i class="far fa-play-circle"></i>
-                    </div>
-                    <div class="col">
-                      Let's get acquainted with nature
-                    </div>
-                    <div class="col-auto">
-                      5:10min
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
 
-            <div class="accordion-item">
-              <div class="accordion-header" id="heading1">
-                <div class="accordion-button px-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-controls="collapse1">
-                  <div class="row justify-content-between px-3">
-                    <div class="col-8">
-                      <b>Unit: 1.</b>
-                      <span class="ps-2">
+                    <div class="accordion-item">
+                        <div class="accordion-header" id="heading1">
+                            <div class="accordion-button px-3 collapsed" type="button" data-bs-toggle="collapse"
+                                 data-bs-target="#collapse1" aria-controls="collapse1">
+                                <div class="row justify-content-between px-3">
+                                    <div class="col-8">
+                                        <b>Unit: 1.</b>
+                                        <span class="ps-2">
                              How to skype to etach English online
                           </span>
+                                    </div>
+                                    <div class="col-auto align-self-center">
+                                        <span>3 Lessons | 1h 60min</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                             data-bs-parent="#c-overview-accordion">
+                            <div class="accordion-body">
+
+                                <div class="row px-2 mb-2">
+                                    <div class="col-auto play-icon">
+                                        <i class="far fa-play-circle"></i>
+                                    </div>
+                                    <div class="col">
+                                        Let's get acquainted with nature
+                                    </div>
+                                    <div class="col-auto">
+                                        5:10min
+                                    </div>
+                                </div>
+                                <div class="row px-2 mb-2">
+                                    <div class="col-auto play-icon">
+                                        <i class="far fa-play-circle"></i>
+                                    </div>
+                                    <div class="col">
+                                        Let's get acquainted with nature
+                                    </div>
+                                    <div class="col-auto">
+                                        5:10min
+                                    </div>
+                                </div>
+                                <div class="row px-2 mb-2">
+                                    <div class="col-auto play-icon">
+                                        <i class="far fa-play-circle"></i>
+                                    </div>
+                                    <div class="col">
+                                        Let's get acquainted with nature
+                                    </div>
+                                    <div class="col-auto">
+                                        5:10min
+                                    </div>
+                                </div>
+                                <div class="row px-2 mb-2">
+                                    <div class="col-auto play-icon">
+                                        <i class="far fa-play-circle"></i>
+                                    </div>
+                                    <div class="col">
+                                        Let's get acquainted with nature
+                                    </div>
+                                    <div class="col-auto">
+                                        5:10min
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+
+                </div>
+            </div>
+
+            <div class="py-3 mb-5">
+                <div class="h3 py-3">Students reviews</div>
+                <div class="row mb-3">
                     <div class="col-auto align-self-center">
-                      <span>3 Lessons | 1h 60min</span>
+                        <img src="images/ic2.png" alt="">
                     </div>
-                  </div>
+                    <div class="col border-bottom pb-2">
+                        <div class="">Ahmed asif</div>
+                        <div class="">
+                  <span class="course-stars">
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star-half-alt"></i>
+                   <i class="far fa-star"></i>
+                 </span>
+                            <span class="text-muted">September 13,2020</span>
+                        </div>
+                        <div class="">
+                            Круто. Мне очень понравился этот видеоурок, ждем еще видео
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#c-overview-accordion">
-                <div class="accordion-body">
-
-                  <div class="row px-2 mb-2">
-                    <div class="col-auto play-icon">
-                      <i class="far fa-play-circle"></i>
+                <div class="row mb-3">
+                    <div class="col-auto align-self-center">
+                        <img src="images/ic2.png" alt="">
                     </div>
-                    <div class="col">
-                      Let's get acquainted with nature
+                    <div class="col border-bottom pb-2">
+                        <div class="">Ahmed asif</div>
+                        <div class="">
+                  <span class="course-stars">
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star-half-alt"></i>
+                   <i class="far fa-star"></i>
+                 </span>
+                            <span class="text-muted">September 13,2020</span>
+                        </div>
+                        <div class="">
+                            Круто. Мне очень понравился этот видеоурок, ждем еще видео
+                        </div>
                     </div>
-                    <div class="col-auto">
-                      5:10min
-                    </div>
-                  </div>
-                  <div class="row px-2 mb-2">
-                    <div class="col-auto play-icon">
-                      <i class="far fa-play-circle"></i>
-                    </div>
-                    <div class="col">
-                      Let's get acquainted with nature
-                    </div>
-                    <div class="col-auto">
-                      5:10min
-                    </div>
-                  </div>
-                  <div class="row px-2 mb-2">
-                    <div class="col-auto play-icon">
-                      <i class="far fa-play-circle"></i>
-                    </div>
-                    <div class="col">
-                      Let's get acquainted with nature
-                    </div>
-                    <div class="col-auto">
-                      5:10min
-                    </div>
-                  </div>
-                  <div class="row px-2 mb-2">
-                    <div class="col-auto play-icon">
-                      <i class="far fa-play-circle"></i>
-                    </div>
-                    <div class="col">
-                      Let's get acquainted with nature
-                    </div>
-                    <div class="col-auto">
-                      5:10min
-                    </div>
-                  </div>
                 </div>
-              </div>
+                <div class="row mb-3">
+                    <div class="col-auto align-self-center">
+                        <img src="images/ic2.png" alt="">
+                    </div>
+                    <div class="col border-bottom pb-2">
+                        <div class="">Ahmed asif</div>
+                        <div class="">
+                  <span class="course-stars">
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star-half-alt"></i>
+                   <i class="far fa-star"></i>
+                 </span>
+                            <span class="text-muted">September 13,2020</span>
+                        </div>
+                        <div class="">
+                            Круто. Мне очень понравился этот видеоурок, ждем еще видео
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-auto align-self-center">
+                        <img src="images/ic2.png" alt="">
+                    </div>
+                    <div class="col border-bottom pb-2">
+                        <div class="">Ahmed asif</div>
+                        <div class="">
+                  <span class="course-stars">
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star-half-alt"></i>
+                   <i class="far fa-star"></i>
+                 </span>
+                            <span class="text-muted">September 13,2020</span>
+                        </div>
+                        <div class="">
+                            Круто. Мне очень понравился этот видеоурок, ждем еще видео
+                        </div>
+                    </div>
+                </div>
             </div>
 
-          </div>
-        </div>
-
-        <div class="py-3 mb-5">
-          <div class="h3 py-3">Students reviews</div>
-          <div class="row mb-3">
-            <div class="col-auto align-self-center">
-              <img src="images/ic2.png" alt="">
-            </div>
-            <div class="col border-bottom pb-2">
-              <div class="">Ahmed asif</div>
-              <div class="">
-                  <span class="course-stars">
-                   <i class="fas fa-star"></i>
-                   <i class="fas fa-star"></i>
-                   <i class="fas fa-star"></i>
-                   <i class="fas fa-star-half-alt"></i>
-                   <i class="far fa-star"></i>
-                 </span>
-                <span class="text-muted">September 13,2020</span>
-              </div>
-              <div class="">
-                Круто. Мне очень понравился этот видеоурок, ждем еще видео
-              </div>
-            </div>
-          </div>
-          <div class="row mb-3">
-            <div class="col-auto align-self-center">
-              <img src="images/ic2.png" alt="">
-            </div>
-            <div class="col border-bottom pb-2">
-              <div class="">Ahmed asif</div>
-              <div class="">
-                  <span class="course-stars">
-                   <i class="fas fa-star"></i>
-                   <i class="fas fa-star"></i>
-                   <i class="fas fa-star"></i>
-                   <i class="fas fa-star-half-alt"></i>
-                   <i class="far fa-star"></i>
-                 </span>
-                <span class="text-muted">September 13,2020</span>
-              </div>
-              <div class="">
-                Круто. Мне очень понравился этот видеоурок, ждем еще видео
-              </div>
-            </div>
-          </div>
-          <div class="row mb-3">
-            <div class="col-auto align-self-center">
-              <img src="images/ic2.png" alt="">
-            </div>
-            <div class="col border-bottom pb-2">
-              <div class="">Ahmed asif</div>
-              <div class="">
-                  <span class="course-stars">
-                   <i class="fas fa-star"></i>
-                   <i class="fas fa-star"></i>
-                   <i class="fas fa-star"></i>
-                   <i class="fas fa-star-half-alt"></i>
-                   <i class="far fa-star"></i>
-                 </span>
-                <span class="text-muted">September 13,2020</span>
-              </div>
-              <div class="">
-                Круто. Мне очень понравился этот видеоурок, ждем еще видео
-              </div>
-            </div>
-          </div>
-          <div class="row mb-3">
-            <div class="col-auto align-self-center">
-              <img src="images/ic2.png" alt="">
-            </div>
-            <div class="col border-bottom pb-2">
-              <div class="">Ahmed asif</div>
-              <div class="">
-                  <span class="course-stars">
-                   <i class="fas fa-star"></i>
-                   <i class="fas fa-star"></i>
-                   <i class="fas fa-star"></i>
-                   <i class="fas fa-star-half-alt"></i>
-                   <i class="far fa-star"></i>
-                 </span>
-                <span class="text-muted">September 13,2020</span>
-              </div>
-              <div class="">
-                Круто. Мне очень понравился этот видеоурок, ждем еще видео
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="py-3 mt-5 mb-3">
-          <div class="row">
-            <div class="col-3">
-              <img src="images/teacher2.jpg" class="img-thumbnail" alt="">
-            </div>
-            <div class="col-9 align-self-center">
-              <h4>Diana Akhmedova</h4>
-              <div class="text-muted align-items-start mb-2">English teacher</div>
-              <div class="mb-1"><i class="fas fa-users"></i> 1.278 student</div>
-              <div class="mb-1"><i class="far fa-play-circle"></i> 17 courses</div>
-              <div class="mb-1"><i class="fab fa-instagram "></i> @sanjar_aripov</div>
-            </div>
-            <div class="col-12 mt-2">
-              <p>Diana Akhmedova is an English teacher. Has 7 years of work experience. It has trained high level students from primary education to IELTS</p>
-              <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-lg-3">
-        <div class="shadow border mb-5">
-          <div class="py-3 h4 text-center border-bottom">
-            Cours overviw:
-          </div>
-          <div class="px-4 pb-3">
-            <div class="py-1">
-              <i class="p-2 far fa-play-circle"></i>  20 Hours video
-            </div>
-            <div class="py-1">
-              <i class="p-2 fas fa-book"></i>  35 Ecercises
-            </div>
-            <div class="py-1">
-              <i class="p-2 fas fa-book-open"></i>  14 Practice tasks
-            </div>
-            <div class="py-1">
-              <i class="p-2 fas fa-language"></i>  Language: English
-            </div>
-            <div class="py-1">
-              <i class="p-2 fas fa-signal"></i>  Level : Beginner
-            </div>
-            <div class="py-1">
-              <i class="p-2 fas fa-sync-alt"></i>  Unlimited Access
-            </div>
-            <div class="py-1">
-              <i class="p-2 fas fa-award"></i>  Certificate of complition
-            </div>
-            <div class="px-3">
-              <div class="col-md-auto text-center py-3">
+            <div class="py-3 mt-5 mb-3">
                 <div class="row">
-                  <a href="prise.html" class="btn btn-info px-5 c-overview-btn-reverse col" role="button">Buy course</a>
+                    <div class="col-3">
+                        <img src="images/teacher2.jpg" class="img-thumbnail" alt="">
+                    </div>
+                    <div class="col-9 align-self-center">
+                        <h4>Diana Akhmedova</h4>
+                        <div class="text-muted align-items-start mb-2">English teacher</div>
+                        <div class="mb-1"><i class="fas fa-users"></i> 1.278 student</div>
+                        <div class="mb-1"><i class="far fa-play-circle"></i> 17 courses</div>
+                        <div class="mb-1"><i class="fab fa-instagram "></i> @sanjar_aripov</div>
+                    </div>
+                    <div class="col-12 mt-2">
+                        <p>Diana Akhmedova is an English teacher. Has 7 years of work experience. It has trained high
+                            level students from primary education to IELTS</p>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a
+                            page when looking at its layout. The point of using Lorem Ipsum is that it has a
+                            more-or-less normal distribution of letters, as opposed to using 'Content here</p>
+                    </div>
                 </div>
-              </div>
-              <div class="col-md-auto text-center">
-                <div class="row">
-                  <a href="experises.html" class="btn btn-info px-5 c-overview-btn col">Trial version</a>
-                </div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
+        <div class="col-12 col-lg-3 hidden-sm">
+            <div class="shadow border mb-5">
+                <div class="py-3 h4 text-center border-bottom">
+                    Cours overviw:
+                </div>
+                <div class="px-4 pb-3">
+                    <div class="py-1">
+                        <i class="p-2 far fa-play-circle"></i> 20 Hours video
+                    </div>
+                    <div class="py-1">
+                        <i class="p-2 fas fa-book"></i> 35 Ecercises
+                    </div>
+                    <div class="py-1">
+                        <i class="p-2 fas fa-book-open"></i> 14 Practice tasks
+                    </div>
+                    <div class="py-1">
+                        <i class="p-2 fas fa-language"></i> Language: English
+                    </div>
+                    <div class="py-1">
+                        <i class="p-2 fas fa-signal"></i> Level : Beginner
+                    </div>
+                    <div class="py-1">
+                        <i class="p-2 fas fa-sync-alt"></i> Unlimited Access
+                    </div>
+                    <div class="py-1">
+                        <i class="p-2 fas fa-award"></i> Certificate of complition
+                    </div>
+                    <div class="px-3">
+                        <div class="col-md-auto text-center py-3">
+                            <div class="row">
+                                <a href="prise.html" class="btn btn-info px-5 c-overview-btn-reverse col" role="button">Buy
+                                    course</a>
+                            </div>
+                        </div>
+                        <div class="col-md-auto text-center">
+                            <div class="row">
+                                <a href="experises.html" class="btn btn-info px-5 c-overview-btn col">Trial version</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </section>
-
-
-
+</section>
 
 
 <section class="container-fluid border-top">
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-3">
-        <div class="futer-logo text-center">
-          <img src="images/logo.png" alt="">
-        </div>
-      </div>
-      <div class="col justify-content-center">
-        <ul class="nav justify-content-center med-futr">
-      <li class="nav-item">
-        <a class="nav-link disabled h6" href="#"> <u>Courses</u> </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled h6" href="#"> <u>About us</u> </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled h6" href="#"> <u>Our expert</u> </a>
-      </li>
-    </ul>
-      </div>
-    <div class="col text-center align-item-center">
-      <text>Follow us on</text><br>
-        <i class="fab fa-instagram-square"></i>
-        <i class="fab fa-telegram"></i>
-        <i class="fab fa-facebook"></i>
-  </div>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-3">
+                <div class="futer-logo text-center">
+                    <img src="images/logo.png" alt="">
+                </div>
+            </div>
+            <div class="col justify-content-center">
+                <ul class="nav justify-content-center med-futr">
+                    <li class="nav-item">
+                        <a class="nav-link disabled h6" href="#"> <u>Courses</u> </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled h6" href="#"> <u>About us</u> </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled h6" href="#"> <u>Our expert</u> </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col text-center align-item-center">
+                <text>Follow us on</text>
+                <br>
+                <i class="fab fa-instagram-square"></i>
+                <i class="fab fa-telegram"></i>
+                <i class="fab fa-facebook"></i>
+            </div>
 
+        </div>
     </div>
-  </div>
-</section><br>
+</section>
+<br>
 
 <header class="container-fluid futrjon">
-  <div class="container">
-    <div class="row text-center margno h6">
-      <div class="col-4">
-         &copy; Copiright2020
-      </div>
-      <div class="col-4">
-        All rights reserved
-      </div>
-      <div class="col-4">
-        <a href="https://Elmaxmedia.uz" target="_blank" class="elmax" >Elmaxmedia</a>
-      </div>
+    <div class="container">
+        <div class="row text-center margno h6">
+            <div class="col-4">
+                &copy; Copiright2020
+            </div>
+            <div class="col-4">
+                All rights reserved
+            </div>
+            <div class="col-4">
+                <a href="https://Elmaxmedia.uz" target="_blank" class="elmax">Elmaxmedia</a>
+            </div>
+        </div>
     </div>
-  </div>
 </header>
 
 
 <!-- f -->
 
 
-    <!-- Optional JavaScript; choose one of the two! -->
+<!-- Optional JavaScript; choose one of the two! -->
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
+<!-- Option 1: Bootstrap Bundle with Popper -->
 <!--    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>-->
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
+<!-- Option 2: Separate Popper and Bootstrap JS -->
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+        crossorigin="anonymous"></script>
 
-  </body>
+</body>
 </html>
