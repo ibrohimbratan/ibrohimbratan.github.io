@@ -28,6 +28,39 @@ body {
     font-size: 0.875rem;
     font-weight: 300;
 }
+/*galereya*/
+* {
+    box-sizing: border-box;
+}
+.galere{
+    text-align: center;
+    padding: 25px;
+    color: goldenrod;
+}
+.row {
+    padding-top: 25px;
+    display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+.column img{
+    filter: grayscale(100%);
+}
+.column img:hover{
+    filter: grayscale(0%);
+}
+
+.imgwidz img{
+    width: 100%;
+}
+.d-none{
+    color: goldenrod;
+    margin-bottom: 20%;
+}
 
 h1,
 h2,
